@@ -45,7 +45,7 @@ For a standard news item that contains a significant body of text, the following
 
     Write your news article here, and make sure it's in markdown!
 
-In this case, the first 30 or so words will be taken fro the body of the news item and displayed on the front page of akka.io.
+In this case, the first 30 or so words will be taken from the body of the news item and displayed on the front page of akka.io.
 
 However, if you'd like to override the text that's displayed, you could use the following YAML front matter:
 

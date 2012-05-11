@@ -12,7 +12,7 @@ This page contains a list of selected projects and extensions to Akka created by
 ## Selected Extensions To Akka
 
 * [Play Mini](https://github.com/typesafehub/play2-mini)
-* [Akka WebSocket](https://github.com/mojolly/backchat-websocket)
+* [Akka WebSocket](https://github.com/backchatio/hookup)
 * [Akka AMQP Integration](https://github.com/momania/akka-amqp)
 * [Akka AMQP Durable Mailbox](https://github.com/drexin/akka-amqp-mailbox)
 

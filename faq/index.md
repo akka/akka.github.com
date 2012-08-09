@@ -3,6 +3,20 @@ layout: page-full-width
 title: Frequently Asked Questions
 ---
 
+## Actors in General
+
+### My actors send replies, but they are lost, and the sender is `deadLetters`
+
+This happens most easily when using Java: a `tell()` operation needs to be told
+what the sending actor’s reference is, so that this reference can be passed to
+the target actor together with the message. When within an actor, always add
+`getSelf()` as second argument:
+
+    otherActor.tell(msg, getSelf());
+
+For Scala users this can only happen outside of actors, since the `!` operator
+picks up the sender reference implicitly from the surrounding actor’s context.
+
 ## Remoting
 
 ### I want to send to a remote system but it does not do anything

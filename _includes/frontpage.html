@@ -182,7 +182,7 @@ greeter.tell(new Greeting("Sonny Rollins"));
 	            	<h2>Supervision</h2>
 	            	<p>Actors form a tree with actors being parents to the actors they've created. As a parent, the actor is responsible for handling its
 children’s failures (so-called supervision), forming a chain of responsibility, all the way to the top. When an actor crashes, its
-parent can either restart or stop it, or escalate the failure to the up the hierarchy of actors. This enables a clean set of semantics for
+parent can either restart or stop it, or escalate the failure up the hierarchy of actors. This enables a clean set of semantics for
 managing failures in a concurrent, distributed system and allows for writing highly fault-tolerant systems that self-heal. <a href="http://doc.akka.io/docs/akka/snapshot/general/actor-systems.html">Learn more.</a></p>
 								<div class="language-header"><div class="scala-header"><a href="http://doc.akka.io/docs/akka/snapshot/scala/fault-tolerance.html"><img src="{{ site.baseurl }}/resources/images/scala-sm.png"/><a/></div><div class="java-header"><a href="http://doc.akka.io/docs/akka/snapshot/java/fault-tolerance.html">Java</a></div></div>
 	            	<div class="scala-codebox">

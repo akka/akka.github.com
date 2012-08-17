@@ -54,6 +54,13 @@ tells you (normally logged at INFO level) or [switch on
 logging](https://github.com/akka/akka/blob/v2.0.2/akka-remote/src/main/resources/reference.conf#L66)
 of all sent and received messages (logged at DEBUG level).
 
+### Which options shall I enable when debugging remoting issues?
+
+Have a look at the `reference.conf` for [akka-remote](http://doc.akka.io/docs/akka/current/general/configuration.html#akka-remote), the typical candidates are:
+* `akka.remote.log-sent-messages`
+* `akka.remote.log-received-messages`
+* `akka.remote.log-remote-lifecycle-events` (this also includes deserialization errors)
+
 ### What is the name of a remote actor?
 
 When you want to send messages to an actor on a remote host, you need to know

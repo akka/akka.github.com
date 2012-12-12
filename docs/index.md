@@ -21,10 +21,10 @@ title: Akka Documentation
 
 ## Release Candidates
 
-### Akka 2.1.0-RC3 for Scala 2.10.0-RC3
+### Akka 2.1.0-RC5 for Scala 2.10.0-RC5
 
-* Akka Documentation - [http://doc.akka.io/docs/akka/2.1.0-RC3](http://doc.akka.io/docs/akka/2.1.0-RC3) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.0-RC3/Akka.pdf))
-* Akka API - [http://doc.akka.io/api/akka/2.1.0-RC3](http://doc.akka.io/api/akka/2.1.0-RC3)
+* Akka Documentation - [http://doc.akka.io/docs/akka/2.1.0-RC5](http://doc.akka.io/docs/akka/2.1.0-RC5) (or in [PDF format](http://doc.akka.io/docs/akka/2.1.0-RC5/Akka.pdf))
+* Akka API - [http://doc.akka.io/api/akka/2.1.0-RC5](http://doc.akka.io/api/akka/2.1.0-RC5)
 
 
 ## Current Milestone

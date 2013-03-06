@@ -39,4 +39,4 @@ Automatically published documentation for the latest SNAPSHOT version of Akka ca
 
 Automatically published Scaladoc API for the latest SNAPSHOT version of Akka can be found here:
 
-* Akka API - [http://doc.akka.io/api/akka/snapshot/](http://doc.akka.io/api/akka/snapshot/)
+* Akka API - [for Java](http://doc.akka.io/japi/akka/snapshot/) and [for Scala](http://doc.akka.io/api/akka/snapshot/)

@@ -3,6 +3,10 @@ layout: page-full-width
 title: Downloads
 ---
 
+## Akka 2.2.0-RC1 (current milestone release) for Scala 2.10
+
+* Akka (all modules): [akka-2.2.0-RC1.tgz](http://download.akka.io/downloads/akka-2.2.0-RC1.tgz) or [akka-2.2.0-RC1.zip](http://download.akka.io/downloads/akka-2.2.0-RC1.zip)
+
 ## Akka 2.1.4 (current stable release) for Scala 2.10
 
 * Akka (all modules): [akka-2.1.4.tgz](http://download.akka.io/downloads/akka-2.1.4.tgz) or [akka-2.1.4.zip](http://download.akka.io/downloads/akka-2.1.4.zip)

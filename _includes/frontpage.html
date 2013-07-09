@@ -79,7 +79,7 @@ public class GreetingActor extends UntypedActor {
 
 ActorSystem system = ActorSystem.create("MySystem");
 ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
-greeter.tell(new Greeting("Charlie Parker"));
+greeter.tell(new Greeting("Charlie Parker"), ActorRef.noSender());
 </pre>
 								</div>
 	            </div>
@@ -98,7 +98,7 @@ akka {
    provider = akka.remote.RemoteActorRefProvider
    deployment {
      /greeter {
-       remote = akka://MySystem@machine1:2552
+       remote = akka.tcp://MySystem@machine1:2552
      }
    }
  }
@@ -126,7 +126,7 @@ val greeter = system.actorOf(Props[GreetingActor], name = "greeter")
 // ------------------------------
 // on machine 3: Remote Lookup (logical home of “greeter” is machine2, remote deployment is transparent)
 val system = ActorSystem("MySystem")
-val greeter = system.actorFor("MySystem@machine2:2552/user/greeter")
+val greeter = system.actorSelection("akka.tcp://MySystem@machine2:2552/user/greeter")
 greeter ! Greeting("Sonny Rollins")
 </pre>
 								</div>
@@ -139,7 +139,7 @@ akka {
     provider = akka.remote.RemoteActorRefProvider
     deployment {
       /greeter {
-        remote = akka://MySystem@machine1:2552
+        remote = akka.tcp://MySystem@machine1:2552
       }
     }
   }
@@ -173,8 +173,8 @@ ActorRef greeter = system.actorOf(new Props(GreetingActor.class), "greeter");
 // ------------------------------
 // on machine 3: Remote Lookup (logical home of “greeter” is machine2, remote deployment is transparent)
 ActorSystem system = ActorSystem.create("MySystem");
-ActorRef greeter = system.actorFor("MySystem@machine2:2552/user/greeter");
-greeter.tell(new Greeting("Sonny Rollins"));
+ActorSelection greeter = system.actorSelection("akka.tcp://MySystem@machine2:2552/user/greeter");
+greeter.tell(new Greeting("Sonny Rollins"), ActorRef.noSender());
 </pre>
 								</div>
 	            </div>
@@ -226,7 +226,7 @@ class Supervisor extends UntypedActor {
   ActorRef worker = context.actorOf(new Props(Worker.class));
 
   public void onReceive(Object message) throws Exception {
-    if (message instanceof Integer) worker.forward(message);
+    if (message instanceof Integer) worker.forward(message, getContext());
   }
 }
 </pre>

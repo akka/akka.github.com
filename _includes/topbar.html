@@ -2,7 +2,9 @@
   <div class="navbar-inner">
     <div class="container">
       <div class="navbar-logo">
+        {% if hideLogo == 'yes' %}
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/resources/images/logo-small.png" /></a>
+        {% endif %}
       </div>    
       <ul class="nav">
         {%  include top-bar-links.html %}

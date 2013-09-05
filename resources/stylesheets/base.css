@@ -7,7 +7,7 @@ a:hover { color: #73a600; text-decoration: none; }
 hr { margin: 20px 0;border: none; height: 1px; background: rgba(0,0,0,.1); }
 .navbar { position: relative; z-index: 150; margin-bottom: 0px; }
 .navbar .nav { float: right; }
-.navbar-logo { visibility: hidden; margin-bottom: -31px; }
+.navbar-logo { float: left; padding-top: 6px; }
 .top-bar { background: #0d262b url('{{ site.baseurl }}/resources/images/top-bar-bg.gif') repeat-x; height: 40px; }
 .top-menu { margin-top: 10px; padding:0; float: right; }
 .top-menu li { display:inline; padding: 0px 10px 0px; margin:0; color: rgba(255, 255, 255, 0.8); text-shadow:0 1px 0 #000000; font-size: 14px; font-weight: 500;}
@@ -21,7 +21,7 @@ hr { margin: 20px 0;border: none; height: 1px; background: rgba(0,0,0,.1); }
 .feature-strip {background: #98D7E7;color:#097690;overflow: hidden;text-align: center;}
 .feature-strip .span4 {width: 290px; padding-top: 120px;}
 .feature-strip h2 {color: #243340;font-weight: bold;font-size: 20px;line-height: 23px;margin-bottom: 8px;}
-.box { font-size: 30px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 38px; margin-bottom: 20px;}
+.box { font-size: 30px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 38px; margin: 20px 0;}
 .small-box { font-size: 16px; line-height: 20px; font-weight: 300; color: #98D7E6; text-shadow:0 2px 0 #0d262b;margin: 0 100px;}
 .bold { font-weight: 600; }
 .light-strip { background: #f2f2eb; min-height: 200px;}
@@ -125,5 +125,11 @@ code { padding: 1px 2px; color: #5d8700; background-color: #f3f7e9; border: 1px 
 .getting-started p {font-weight: 100;font-size: 11px;}
 .getting-started .big-button {display:block; height: 50px;line-height:50px;width: 280px;background: #FFB34F;color: #24333F;margin: 0 auto 4px;font-size: 18px;font-weight:bold;text-transform: uppercase;}
 .getting-started .big-button:hover {background: #FBA636;}
+
+
+.activator-strip { background: #98D7E7; padding: 40px 0; color: #097690; }
+.activator-strip h2 { color: #fff; text-shadow: 1px 1px 1px #097690; margin-bottom: 10px; }
+.activator-strip h3 { color: #243340; margin-bottom: 5px; }
+.activator-strip .version { background: rgba(255,255,255,.2); margin: 10px 30px 10px 0; padding: 5px 8px; border-radius: 2px; }
 
 

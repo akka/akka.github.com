@@ -1,0 +1,110 @@
+{% assign hideLogo = 'yes' %}
+{% include topbar.html %}
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div class="box">Download Akka</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="activator-strip under-main">
+	<div class="container rel">
+		<div class="row rel">
+			<div class="span6">
+				<h2>Download Typesafe Activator</h2>
+				<h3>Your download will start shortly</h3>
+				<p id="timerWrap"><span id="timer">5</span> seconds left, or <a class="cancel" onclick="javascript:cancel();">click here to cancel</a>.</p>
+				<script type="text/javascript">
+					var counter;
+					var timer = document.getElementById("timer");
+					var timerWrap = document.getElementById("timerWrap");
+					var link = document.getElementById("downloadLink");
+					var duration = 5;
+					function cancel() {
+						clearTimeout(counter);
+						timerWrap.innerHTML = "Download canceled. Click below to restart";
+					}
+					function count(){
+						if (duration == 0) {
+							timerWrap.innerHTML = "Downloading... <iframe src='"+link+"'></iframe>";
+						} else {
+							timer.innerHTML = duration;
+							duration--;
+							counter = setTimeout(count, 1000);
+						}
+					}
+					count();
+				</script>
+				<p class="version"><a href="#" id="downloadLink" todo>
+					<span class="details">Typesafe Activator 1.0 includes Akka 2.2.0</span>
+					<span class="size">200 MB</span>
+				</a></p>
+				<dl>
+					<dt>Other downloads</dt>
+					<dd><a href="#" todo>Download Akka standalone</a></dd>
+					<dd><a href="#" todo>Akka on Maven Central</a></dd>
+					<dd><a href="#" todo>Old versions</a> (github)</dd>
+					<dd><a href="#" todo>Build from the source</a> (github)</dd>
+				</dl>
+			</div>
+			<div class="span6">
+				<h2>Open a template</h2>
+				<h3>The fastest way to get started with Akka</h3>
+				<p>Activator brings several templates for Java and Scala.</p>
+				<dl>
+					<dt>Popular templates with tutorial:</dt>
+					<dd><a href="#" todo>Hello Akka</a></dd>
+					<dd><a href="#" todo>Akka &amp; Play</a></dd>
+					<dd><a href="#" todo>Reactive Stocks</a></dd>
+				</dl>
+				<a class="button" href="http://typesafe.com/activator/templates">Browse all templates</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="light-strip" style="padding: 50px 0;">
+	<div class="container rel">
+		<div class="row rel">
+			<div class="span6">
+				<h2>What is Typesafe Activator?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<h2>Can I get Akka standalone?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="span6">
+				<h2>How to start the tutorial?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+				<h2>How to run Akka within Activator?</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			</div>
+		</div>
+
+	</div>
+</div>

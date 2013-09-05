@@ -1,33 +1,48 @@
 {% include topbar.html %}
-<div class="main">
+<div class="main home-header">
 	<div class="container rel">
-		<div class="hexagons"></div>
 		<div class="row rel">
-			<div class="span4">
+			<div class="span8 offset2 hometop">
 				<div class="logo"><img src="{{ site.baseurl }}/resources/images/logo_dropshadow.png"/></div>
-				<div class="box">Build powerful concurrent & distributed applications<br/><span class="bold">more easily</span>.</div>
+				<div class="box">Build powerful concurrent & distributed applications more easily.</div>
 				<div class="small-box">Akka is a toolkit and runtime for building highly concurrent, distributed, and fault tolerant event-driven applications on the JVM.</div>
-			</div>
-			<div class="span8">
-				<div class="simple-concurrency">Simple Concurrency & Distribution
-					<p>Asynchronous and Distributed by design. High-level abstractions like Actors, Futures and STM.</p>
-				</div>
-				<div class="fault-tolerance">Resilient by Design
-					<p>Write systems that self-heal. Remote and/or local supervisor hierarchies.</p>
-				</div>
-				<div class="high-performance">High Performance
-					<p>50 million msg/sec on a single machine. Small memory footprint; ~2.5 million actors per GB of heap.</p>
-				</div>
-				<div class="no-global-state" style="width:220px;">Elastic & Decentralized
-					<p>Adaptive load balancing, routing, partitioning and configuration-driven remoting.</p>
-				</div>
-				<div class="extensible">Extensible
-					<p>Use Akka Extensions to adapt Akka to fit your needs.</p>
+				<div class="getting-started">
+					<a href="{{ site.baseurl }}/getting-started.html" class="big-button">Getting started</a>
+					<p>With Typesafe Activator</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<div class="feature-strip">
+	<div class="container pad">
+		<div class="row normal">
+			<div class="simple-concurrency span4">
+				<h2>Simple Concurrency &amp; Distribution</h2>
+				<p>Asynchronous and Distributed by design. High-level abstractions like Actors, Futures and STM.</p>
+			</div>
+			<div class="fault-tolerance span4">
+				<h2>Resilient by Design</h2>
+				<p>Write systems that self-heal. Remote and/or local supervisor hierarchies.</p>
+			</div>
+			<div class="high-performance span4">
+				<h2>High Performance</h2>
+				<p>50 million msg/sec on a single machine. Small memory footprint; ~2.5 million actors per GB of heap.</p>
+			</div>
+		</div>
+		<div class="row normal">
+			<div class="no-global-state span4">
+				<h2>Elastic &amp; Decentralized</h2>
+				<p>Adaptive load balancing, routing, partitioning and configuration-driven remoting.</p>
+			</div>
+			<div class="extensible span4">
+				<h2>Extensible</h2>
+				<p>Use Akka Extensions to adapt Akka to fit your needs.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
 <div class="light-strip under-main">
 	<div class="container pad">
 
@@ -38,7 +53,6 @@
 	            <li><a href="#remoting">Remoting</a></li>
 	            <li><a href="#supervision">Supervision</a></li>
 	        </ul>
-	        <div class="selected-arrow"></div>
 
 	        <div class="scroll" style="height: 620px">
             <div class="scrollContainer">
@@ -240,10 +254,8 @@ class Supervisor extends UntypedActor {
 	</div>
 </div>
 
-<div class="under-light-strip"></div>
 <div class="darker-strip">
 	<div class="container pad">
-
 		<div class="row normal">
 			<div class="span12">
 				<div class="used-by-header"><span class="text">SELECTION OF PRODUCTION USERS</span></div>
@@ -252,9 +264,8 @@ class Supervisor extends UntypedActor {
 				</div>
 			</div>
 		</div>
-
 	</div>
-	<div class="between-dark-strips"></div>
+	<hr/>
 	<div class="container three-bars">
 		<div class="row">
 

@@ -4,7 +4,7 @@ body { position: relative; }
 .navbar { margin-bottom: 18px; }
 .navbar-logo { visibility: visible; float: left; padding-top: 6px; }
 .main { position: relative; height: auto; margin-top: -18px; overflow: auto; }
-.page-title { position: relative; top: 24px; font-family: 'Exo', sans-serif; font-size: 24px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; width: 900px;}
+.page-title { position: relative; top: 24px; 	 font-size: 24px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; width: 900px;}
 .main-container { background: #f2f2eb;  min-height: 600px; padding-top: 20px; margin-top: 28px; }
 .pdf-link { float: right; height: 40px; margin-bottom: -15px; margin-top: -5px; }
 .breadcrumb { height: 18px; }

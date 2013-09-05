@@ -21,7 +21,7 @@ hr { margin: 20px 0;border: none; height: 1px; background: rgba(0,0,0,.1); }
 .feature-strip {background: #98D7E7;color:#097690;overflow: hidden;text-align: center;}
 .feature-strip .span4 {width: 290px; padding-top: 120px;}
 .feature-strip h2 {color: #243340;font-weight: bold;font-size: 20px;line-height: 23px;margin-bottom: 8px;}
-.box { font-size: 30px; font-weight: 400; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 38px; margin: 20px 0;}
+.box { font-weight: bold; font-size: 30px; color: rgba(255, 255, 255, 1); text-shadow:0 2px 0 #000000; line-height: 38px; margin: 20px 0;}
 .small-box { font-size: 16px; line-height: 20px; font-weight: 300; color: #98D7E6; text-shadow:0 2px 0 #0d262b;margin: 0 100px;}
 .bold { font-weight: 600; }
 .light-strip { background: #f2f2eb; min-height: 200px;}
@@ -128,8 +128,20 @@ code { padding: 1px 2px; color: #5d8700; background-color: #f3f7e9; border: 1px 
 
 
 .activator-strip { background: #98D7E7; padding: 40px 0; color: #097690; }
+.activator-strip a { color: #04586D; text-decoration: underline; }
+.activator-strip a:hover { color: #243340; }
 .activator-strip h2 { color: #fff; text-shadow: 1px 1px 1px #097690; margin-bottom: 10px; }
 .activator-strip h3 { color: #243340; margin-bottom: 5px; }
-.activator-strip .version { background: rgba(255,255,255,.2); margin: 10px 30px 10px 0; padding: 5px 8px; border-radius: 2px; }
+#timer { color: #243340; font-weight: bold; display: inline-block; width: 20px; text-align: right; }
+.activator-strip .version { background: #097690; margin: 10px 30px 10px 0; border-radius: 2px; overflow: hidden; }
+.activator-strip .version .details { padding: 5px 8px; float: left; }
+.activator-strip .version .size { float: right; border-left: 2px solid #98D7E7; font-weight: bold;}
+.activator-strip .version .details,
+.activator-strip .version .size { padding: 5px 8px; color: #fff; }
+.activator-strip .cancel { cursor: pointer; }
+.activator-strip iframe { position: fixed; top: -999em;left: -999em; }
+.activator-strip .button { display: inline-block; background: #fff; padding: 7px 15px 8px; text-decoration: none; font-size: 16px; font-weight: bold; border-radius: 2px; }
+.activator-strip .button:hover { color: #243340; }
+
 
 

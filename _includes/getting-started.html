@@ -4,7 +4,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<div class="box">Getting started</div>
+				<div class="box">Download Akka</div>
 			</div>
 		</div>
 	</div>
@@ -16,16 +16,38 @@
 			<div class="span6">
 				<h2>Download Typesafe Activator</h2>
 				<h3>Your download will start shortly</h3>
-				<p><span id="timer">4</span> seconds left, or <a href="#" todo>click here</a>. <span id="cancel">cancel</span>.</p>
-				<p class="version">
+				<p id="timerWrap"><span id="timer">5</span> seconds left, or <a class="cancel" onclick="javascript:cancel();">click here to cancel</a>.</p>
+				<script type="text/javascript">
+					var counter;
+					var timer = document.getElementById("timer");
+					var timerWrap = document.getElementById("timerWrap");
+					var link = document.getElementById("downloadLink");
+					var duration = 5;
+					function cancel() {
+						clearTimeout(counter);
+						timerWrap.innerHTML = "Download canceled. Click below to restart";
+					}
+					function count(){
+						if (duration == 0) {
+							timerWrap.innerHTML = "Downloading... <iframe src='"+link+"'></iframe>";
+						} else {
+							timer.innerHTML = duration;
+							duration--;
+							counter = setTimeout(count, 1000);
+						}
+					}
+					count();
+				</script>
+				<p class="version"><a href="#" id="downloadLink" todo>
 					<span class="details">Typesafe Activator 1.0 includes Akka 2.2.0</span>
 					<span class="size">200 MB</span>
-				</p>
+				</a></p>
 				<dl>
 					<dt>Other downloads</dt>
 					<dd><a href="#" todo>Download Akka standalone</a></dd>
 					<dd><a href="#" todo>Akka on Maven Central</a></dd>
-					<dd><a href="#" todo>Build from the source</a></dd>
+					<dd><a href="#" todo>Old versions</a> (github)</dd>
+					<dd><a href="#" todo>Build from the source</a> (github)</dd>
 				</dl>
 			</div>
 			<div class="span6">
@@ -38,7 +60,7 @@
 					<dd><a href="#" todo>Akka &amp; Play</a></dd>
 					<dd><a href="#" todo>Reactive Stocks</a></dd>
 				</dl>
-				<a class="button" href="#" todo>Browse all tutorials</a>
+				<a class="button" href="http://typesafe.com/activator/templates">Browse all templates</a>
 			</div>
 		</div>
 	</div>

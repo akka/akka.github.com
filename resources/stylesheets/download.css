@@ -1,0 +1,25 @@
+.activator-strip {
+	background: #294C57;
+	padding: 20px 0;
+	text-align: center;
+}
+.activator-strip h1 {
+	color: #fff;
+}
+.activator-strip .row {
+	margin-bottom: 0;
+}
+
+table {
+	width: 100%;
+}
+
+.latest td {
+	font-size: 16px;
+	padding: 20px;
+	background: #fff;
+}
+.latest a {
+	font-weight: bold;
+	font-size: 19px;
+}

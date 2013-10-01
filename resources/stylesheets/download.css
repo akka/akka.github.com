@@ -1,10 +1,12 @@
 .activator-strip {
-	background: #294C57;
+	background: rgba(0, 0, 0, 0.6);
 	padding: 20px 0;
 	text-align: center;
+	margin-top: 28px;
 }
 .activator-strip h1 {
 	color: #fff;
+	font-size: 28px;
 }
 .activator-strip .row {
 	margin-bottom: 0;

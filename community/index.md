@@ -130,19 +130,68 @@ mean that these will be abandoned, we intend to support the merger of the Spray
 and Akka eco-systems. The details remain to be determined, but there will be a
 migration path from Spray 1.3 to Akka HTTP.
 
-* **[S4 – Spray Slick Scala Start](https://github.com/jacobus/s4)**
+* **[binarycamp/spray-contrib](https://bitbucket.org/binarycamp/spray-contrib/src)**
+
+  session mgmt. and OAuth2.0 support
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 
-* **[Spray template for Heroku](https://github.com/matanster/spray-heroku)**
+
+* **[SprayWebSockets](https://github.com/lihaoyi/SprayWebSockets)**
+
+  An implementation of a websocket server on top of spray.io
 
   <table class="stats">
-  <tr><td>Since Akka version:</td><td>unknown</td></tr>
-  <tr><td>Latest Akka version:</td><td>unknown</td></tr>
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  </table>
+
+
+* **[NET-A-PORTER/spray-actor-per-request](https://github.com/NET-A-PORTER/spray-actor-per-request)**
+
+  Example spray application that uses the actor per request model
+
+  <table class="stats">
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  </table>
+
+
+* **[SprayLearning](https://github.com/karthik20522/SprayLearning)**
+
+  Guide to learning Spray.io web framework
+
+  <table class="stats">
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  </table>
+
+
+* **[S4 – Spray Slick Scala Start](https://github.com/jacobus/s4)**
+
+  Spray Slick Starter Stack
+
+  <table class="stats">
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest Release:</td><td>unknown</td></tr>
+  </table>
+
+
+* **[Spray template for Heroku](https://github.com/matanster/spray-heroku)**
+
+  spray template project compatible with Heroku
+
+  <table class="stats">
+  <tr><td>Since spray version:</td><td>unknown</td></tr>
+  <tr><td>Latest spray version:</td><td>unknown</td></tr>
   <tr><td>Latest Release:</td><td>unknown</td></tr>
   </table>
 

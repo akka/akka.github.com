@@ -137,6 +137,14 @@ and remove those projects which have not been updated.
   </table>
 
   Published to bintray at "http://dl.bintray.com/vigdorchik/maven".
+  
+* **[Akka Tracing](https://github.com/levkhomich/akka-tracing)**
+
+  <table class="stats"> (by [Lev Khomich](https://github.com/levkhomich))
+    <tr><td>Since Akka version:</td><td>2.3.0</td></tr>
+    <tr><td>Latest Akka version:</td><td>2.3.1</td></tr>
+    <tr><td>Latest Release:</td><td>only snapshots available atm</td></tr>
+  </table>
 
 ## Extensions to Spray
 

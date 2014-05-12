@@ -2,6 +2,8 @@ title: "Akka"
 
 baseurl: "http://akka.io"
 
+markdown: kramdown
+
 exclude:
 - README
 

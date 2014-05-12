@@ -70,8 +70,7 @@ pre { border: 0px solid #333; background-color: transparent;}
 .used-by h2 { font-family: 'Exo', sans-serif; font-size: 32px; font-weight: 400; color: #595959; text-shadow:0 1px 0 #ffffff; line-height: 34px; margin-bottom: 12px; } /*gray: 595959, green: 49bf00*/
 .used-by-header { background: url('{{ site.baseurl }}/resources/images/used-by-bg.png') 0 7px repeat-x; text-align: center; }
 .used-by-header .text { display: inline-block; padding: 0 20px; background: #dfdfd9; font-weight: bold; color: rgba(88, 111, 117, 0.8);}
-.used-by-logos { text-align: center; /*white-space: nowrap;*/ } 
-.used-by-logos img { margin: 8px 8px;}
+.used-by-logos { text-align: center; /*white-space: nowrap;*/ }
 .between-dark-strips { background: url('{{ site.baseurl }}/resources/images/between-dark-strips-bg.gif') repeat-x; height: 3px; margin-bottom: 20px; }
 .three-bars { padding-bottom: 30px; }
 .three-bars h2 { font-family: 'Exo', sans-serif; font-size: 28px; font-weight: 400; color: #595959; text-shadow:0 1px 0 #ffffff; line-height: 30px; margin-bottom: 8px; }

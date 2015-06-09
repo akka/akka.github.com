@@ -112,6 +112,18 @@ open-source project.
   
   Published to bintray URL `http://dl.bintray.com/patriknw/maven`.
 
+## Extensions to Akka-Http
+
+* **[play-json-support](https://github.com/guillaumebreton/play-json-support)** (by [Guillaume Breton](https://github.com/guillaumebreton))
+
+  <table class="stats">
+  <tr><td>Since Akka-Http version:</td><td>1.0-RC1</td></tr>
+  <tr><td>Latest Akka-Http version:</td><td>1.0-RC1</td></tr>
+  <tr><td>Latest Release:</td><td><code>"octamind" % "play-json-support_2.11" % "0.1.0"</code> (May 7 2015)</td></tr>
+  </table>
+
+  Published to bintray at "http://dl.bintray.com/guillaumebreton/maven".
+
 ## Extensions to Spray
 
 The Spray project is in the process of being merged into Akka as the new HTTP

@@ -1,2 +1,30 @@
 
 {{ content }}
+
+<!-- Algolia docs search -->
+<script type="text/javascript">
+  var version = "2.4.4";
+
+  var lang = "scala"; // TODO: allow switching $("#docs-language").val();
+  // TODO: allow switching "remembering" your preference in browser
+
+  console.log("Search configured for:", lang, "@", version);
+
+  docsearch({
+    apiKey: '543bad5ad786495d9ccd445ed34ed082',
+    indexName: 'akka_io',
+    inputSelector: '#search',
+    algoliaOptions: {
+      hitsPerPage: 5,
+      facetFilters: '[' + '["language:' + lang + '","language:general"]' + ',"version:' + version + '"]'
+    }
+  });
+
+  // set up "/" as global shortcut for focusing on search
+  $(document).keypress(function (event) {
+    if (event.keyCode == 47) {
+      $("#q").focus();
+      return false; // swallow key event, otherwise the / char would be input into the search box
+    }
+  });
+</script>

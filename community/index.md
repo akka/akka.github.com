@@ -225,8 +225,8 @@ open-source project.
 
   <table class="stats">
   <tr><td>Since Akka HTTP version:</td><td>2.4.2</td></tr>
-  <tr><td>Latest Akka HTTP version:</td><td>2.4.8</td></tr>
-  <tr><td>Latest Releases:</td><td><code>"ch.megard" %% "akka-http-cors" % "0.1.4"</code> (July 8, 2016)</td></tr>
+  <tr><td>Latest Akka HTTP version:</td><td>10.0.0-RC2</td></tr>
+  <tr><td>Latest Releases:</td><td><code>"ch.megard" %% "akka-http-cors" % "0.1.9"</code> (November 10, 2016)</td></tr>
   </table>
 
   akka-http-cors adds support for the [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) mechanism to Akka HTTP (server-side only). In particular, the [specification](https://www.w3.org/TR/cors/) written by the W3C is implemented by new directives, enabling cross origin requests in your application.
@@ -537,7 +537,7 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   </table>
 
   Published to [Bintray](https://bintray.com/hootsuite/maven/akka-persistence-redis/view). Compliant with [`akka-persistence-tck`](http://doc.akka.io/docs/akka/2.4.0/scala/persistence.html#plugin-tck).
-  
+
 * **[Titan plugin](https://github.com/acflorea/akka-persistence-titan)** (by [Adrian FLOREA](https://github.com/acflorea/))
 
   <table class="stats">
@@ -954,10 +954,10 @@ Before adding a plugin to this list, it must be tested for compatibility using t
   <tr><td>Latest Akka version:</td><td>2.4.9</td></tr>
   <tr><td>Latest Release:</td><td><code>"io.quckoo" %% "quckoo" % "0.1.0"</code> (August 31, 2016)</td></tr>
   </table>
-  
+
   Quckoo is a fault tolerant distributed task scheduler. Is only focused on short-running,
   recurrent tasks. Quckoo features the following:
-  
+
   - Linear scalable for running jobs as well as for triggering.
   - Automatic resolution of job's dependencies.
   - Internal registry of job definitions.

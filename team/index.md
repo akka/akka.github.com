@@ -12,14 +12,6 @@ title: Team
 		<span class="profile-twitter-link"><a href="https://twitter.com/patriknw">@patriknw</a></span>		
 		<p class="profile-text">Patrik Nordwall has been professional developer and software architect since 1996. He has a passion for technology and new knowledge. His areas of expertise include Scala, Akka, event-driven architecture, and various products for highly scalable systems.</p>
 	</div>	
-</div>
-<div class="row">
-  <div class="span6">
-    <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e00d3476c1ca077dd6ba6897e724655d?s=80" /></div>
-    <span class="profile-name">Endre Sándor Varga</span>
-    <span class="profile-twitter-link"><a href="https://twitter.com/drewhk">@drewhk</a></span>
-    <p class="profile-text">Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.</p>
-  </div>
   <div class="span6">
     <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e22c5a2db4101b4c4037d5f6bba2128d.png?s=80" /></div>
     <span class="profile-name">Konrad 'ktoso' Malawski</span>
@@ -39,6 +31,20 @@ title: Team
     <span class="profile-name">Johan Andrén</span>
     <span class="profile-twitter-link"><a href="https://twitter.com/apnylle">@apnylle</a></span>
     <p class="profile-text">Johan has worked as developer since 2004 when he completed his M.Sc. in Computer Science, most of the time has been with various technologies on top of the JVM. Before joining Lightbend he worked as a consultant and mentor focusing on Scala, Play and Akka.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="span6">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="https://s.gravatar.com/avatar/64f6e19203e7846687b256f2ae4b6b0d?s=80" /></div>
+    <span class="profile-name">Johannes Rudolph</span>
+    <span class="profile-twitter-link"><a href="https://twitter.com/virtualvoid">@virtualvoid</a></span>
+    <p class="profile-text"></p>
+  </div>
+  <div class="span6">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="https://s.gravatar.com/avatar/77058c1d1c35291341b8c7a6d62e0666?s=80" /></div>
+    <span class="profile-name">Arnout Engelen</span>
+    <span class="profile-twitter-link"><a href="https://twitter.com/raboofje">@raboofje</a></span>
+    <p class="profile-text">After working on static source code analysis and receiving his M.Sc. in CS in 2006, Arnout went on to industry. Here he worked in a wide range of fields, from high-traffic enterprise e-commerce to financial data processing, predominantly based on the JVM. With that he became excited about how Akka can elegantly model today's concurrent and distributed systems.</p>
   </div>
 </div>
 <h3>Honorary Members</h3>
@@ -88,6 +94,14 @@ title: Team
 	</div>
 </div>
 <div class="row">
+  <div class="span6">
+    <div class="profile-pic-wrap"><img class="profile-pic" src="http://www.gravatar.com/avatar/e00d3476c1ca077dd6ba6897e724655d?s=80" /></div>
+    <span class="profile-name">Endre Sándor Varga</span>
+    <span class="profile-twitter-link"><a href="https://twitter.com/drewhk">@drewhk</a></span>
+    <p class="profile-text">Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.</p>
+  </div>
+</div>
+<div class="row">
 	<div class="span12">
 		<h2>Contributors</h2>
 		<div class="committers">
@@ -101,7 +115,6 @@ title: Team
         		<li>Piotr Gabryanczyk</li>
 				<li><a href="http://lamp.epfl.ch/~phaller">Philipp Haller</a></li>
         		<li>Mathias Doenitz</li>
-        		<li>Johannes Rudolph</li>
         		<li>Rich Dougherty</li>
 			</ul>
 		</div>

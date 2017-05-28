@@ -42,7 +42,7 @@ What’s more, with low-level implementations such errors would happen "sometime
 
 ### Threading model
 
-In the `GrapStage` API, all the callbacks you might receive are *linearized*. 
+In the `GraphStage` API, all the callbacks you might receive are *linearized*. 
 
 This means that you can safely assume that no two callbacks will execute at the same time (or overlap). Or to put it another way, callbacks are not concurrent with each other. There is also no need to worry about visibility of local variables of a stage: it is properly handled by the library for you. The whole model is very similar to how actors work, where messages are processed in sequence, and accessing local state while handling the message is safe. No need to mess around with volatile variables, atomics or locks to safely manage internal state. Again, I have to emphasize, this is *fully transparent* and your stage will work in both asynchronous and synchronous settings. Even better, the internal implementation does not use any locks either, and is non-blocking in general.
 

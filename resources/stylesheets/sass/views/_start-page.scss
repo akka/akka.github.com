@@ -5,6 +5,10 @@
 	}
 	h1 {
 		margin: 0;
+		a {
+			color: inherit;
+			font-size: inherit;
+		}
 	}
 	.heroParagraph {
 		margin: 50px 0;
@@ -20,12 +24,22 @@
 		@include x-rem(font-size, 1.4);
 		margin-top: 30px;
 		color: #fff;
+		a {
+			color: inherit;
+			font-size: inherit;
+			font-weight: normal;
+		}
 	}
 	.heroInfo {
 		margin-left: 10%;
 		margin-bottom: 60px;
 		@include single-column {
 			margin: 40px 0;
+		}
+		a {
+			color: inherit;
+			font-size: inherit;
+			font-weight: normal;
 		}
 		li {
 			display: flex;

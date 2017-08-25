@@ -26,7 +26,7 @@ Documentation:
 [Scala Manual](http://doc.akka.io/docs/akka/2.4/scala.html)
 [Scala API](http://doc.akka.io/api/akka/2.4)
 
-Artifacts are available from maven central.
+Artifacts are available from Maven Central.
 
 ### Akka 2.3
 
@@ -38,8 +38,8 @@ Documentation:
 [Scala Manual](http://doc.akka.io/docs/akka/2.3/scala.html)
 [Scala API](http://doc.akka.io/api/akka/2.3)
 
-Artifacts are available from maven central.
+Artifacts are available from Maven Central.
 
 ### Older versions of Akka
 
-Even older release are available from maven central for their respective version number.
+Even older release are available from Maven Central for their respective version number.

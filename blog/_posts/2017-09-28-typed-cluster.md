@@ -4,7 +4,7 @@ title: "Akka Typed: New Cluster API"
 description: ""
 author: Patrik Nordwall
 series_title: Akka Typed Cluster and Persistence
-series_tag: typed
+series_tag: typed-cluster
 tags: [actor,typed]
 ---
 {% include JB/setup %}

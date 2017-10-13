@@ -9,7 +9,7 @@ On a related note, Akka Streams is one of the first libraries to provide native 
 
 Let's focus on today's highlight though, the new Spring Web compatibility module:
 
-### Using Akka Streams natively in Spring web endpoints
+### Using Akka Streams natively in Spring Web endpoints
 
 Thanks to [Alpakka](https://developer.lightbend.com/docs/alpakka/current)'s integration code, you're now able to simply depend on the [akka-stream-alpakka-spring-web](https://developer.lightbend.com/docs/alpakka/latest/spring-web.html) Alpakka module: 
 
@@ -20,7 +20,7 @@ dependencies {
 }
 ```
 
-And right away you're able to return Akka Streams in your endpoints, like this for example:
+And right away you're able to return Akka Streams in your Spring Web (thus also Spring Boot) endpoints, like this for example:
 
 ```
 import akka.NotUsed;

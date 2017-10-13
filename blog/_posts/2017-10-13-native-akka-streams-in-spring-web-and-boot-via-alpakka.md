@@ -1,11 +1,11 @@
 Native Akka Streams in Spring Web and Boot via Alpakka
 ------------------------------------------------------
 
-[Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result and preview of what's to come in the furure with Alpakka and other Reactive Streaming libraries – a fully connected ecosystem of inter-connectable streaming building blocks.
+[Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result of the [Reactive Streams](http://reactive-streams.org) initiative, which we were part of from its inception. And also explains what its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) means for the future of inter-operability of Reactive Streams based libraries.
 
-The success of Reactive Streams With the [Reactive Streams](http://reactive-streams.org) initiative, and its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) (launched just weeks earlier)
+On a related note, Akka Streams is one of the first libraries to provide native support for Java 9's `java.util.concurrent.Flow.*` (as of writing, Spring does not provide this support yet, while RxJava provides bridges separately packaged), so if you're looking for a future-ready Reactive Streams implementation, simply use simply Akka Streams `2.5.6+` and you're ready to go.
 
-Also, Akka Streams is one of the first libraries to provide native support for Java 9's `java.util.concurrent.Flow.*` (as of writing, Spring does not provide this support yet, while RxJava provides bridges separately packaged), so if you're looking for a future-ready Reactive Streams implementation, simply use simply Akka Streams `2.5.6+` and you're ready to go. 
+Let's focus on today's highlight though, the new Spring Web compatibility module:
 
 ### Using Akka Streams natively in Spring web endpoints
 

@@ -1,9 +1,7 @@
 Native Akka Streams in Spring Web and Boot via Alpakka
 ------------------------------------------------------
 
-[Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result and 
-
-Today we'd like to show off the
+[Alpakka](https://developer.lightbend.com/docs/alpakka/current), is our way of solving the *Reactive Enterprise Integration* problem. We do so by providing a collection of *streaming* plug-and-play connectors to various technologies. Today we'd like to highlight one specific integration, since it's the result and preview of what's to come in the furure with Alpakka and other Reactive Streaming libraries – a fully connected ecosystem of inter-connectable streaming building blocks.
 
 The success of Reactive Streams With the [Reactive Streams](http://reactive-streams.org) initiative, and its [successful inclusion in the Java 9](http://download.java.net/java/jdk9/docs/api/java/util/concurrent/Flow.html) (launched just weeks earlier)
 

@@ -11,12 +11,12 @@ Let's focus on today's highlight though, the new Spring Web compatibility module
 
 ### Using Akka Streams natively in Spring Web endpoints
 
-Thanks to [Alpakka](https://developer.lightbend.com/docs/alpakka/current)'s integration code, you're now able to simply depend on the [akka-stream-alpakka-spring-web](https://developer.lightbend.com/docs/alpakka/current/spring-web.html) Alpakka module: 
+Thanks to [Alpakka](https://developer.lightbend.com/docs/alpakka/current)'s integration code (included since version `0.14`), you're now able to simply depend on the [akka-stream-alpakka-spring-web](https://developer.lightbend.com/docs/alpakka/current/spring-web.html) Alpakka module: 
 
 ```
 // build.gradle
 dependencies {
-  compile group: 'com.lightbend.akka', name: 'akka-stream-alpakka-spring-web_2.12', version: VERSION_HERE
+  compile group: 'com.lightbend.akka', name: 'akka-stream-alpakka-spring-web_2.12', version: "VERSION_HERE"
 }
 ```
 

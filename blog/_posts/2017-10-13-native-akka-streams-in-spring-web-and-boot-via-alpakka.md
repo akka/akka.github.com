@@ -17,6 +17,7 @@ Thanks to [Alpakka](https://developer.lightbend.com/docs/alpakka/current)'s inte
 // build.gradle
 dependencies {
   compile group: 'com.lightbend.akka', name: 'akka-stream-alpakka-spring-web_2.12', version: "VERSION_HERE"
+  // the latest version as of writing this blog post was 0.14, but please always include the latest version
 }
 ```
 

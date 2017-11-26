@@ -32,8 +32,8 @@ object BlogPost1 {
     PersistentActor.immutable[BlogCommand, BlogEvent, BlogState](
       persistenceId = "abc",
       initialState = BlogState.empty,
-      actions = PersistentActor.Actions { (ctx, cmd, state) ⇒ ??? },
-      applyEvent = (evt, state) ⇒ ???)
+      commandHandler = PersistentActor.CommandHandler { (ctx, state, cmd) ⇒ ??? },
+      eventHandler = (state, evt) ⇒ ???)
 
 }
 ```
@@ -50,9 +50,9 @@ and 4 parameters:
 
 `initialState` defines the `State` when the entity is first created.
 
-`actions` defines command handlers and optional functions for other signals, e.g. `Termination` messages if `watch` is used.
+`commandHandler` defines command handlers and optional functions for other signals, e.g. `Termination` messages if `watch` is used.
 
-`applyEvent` is the event handler that updates the current state when an event has been persisted.
+`eventHandler` is the event handler that updates the current state when an event has been persisted.
 
 ## Command Handlers 
 
@@ -74,45 +74,44 @@ final case class Publish(replyTo: ActorRef[Done]) extends BlogCommand
 final case object PassivatePost extends BlogCommand
 ```
 
-The function that process incoming commands is defined by the mandatory `commandHandler` parameter of the `Actions`.
+The function that process incoming commands is defined by the mandatory `commandHandler` parameter of the `PersistentActor`.
 
 ```scala
-  private val actions: Actions[BlogCommand, BlogEvent, BlogState] =
-    Actions { (ctx, cmd, state) ⇒
+  private val commandHandler: CommandHandler[BlogCommand, BlogEvent, BlogState] =
+    CommandHandler { (_, state, cmd) ⇒
       cmd match {
         case AddPost(content, replyTo) ⇒
           val evt = PostAdded(content.postId, content)
-          Persist(evt).andThen { state2 ⇒
+          Effect.persist(evt).andThen { state2 ⇒
             // After persist is done additional side effects can be performed
             replyTo ! AddPostDone(content.postId)
           }
         case ChangeBody(newBody, replyTo) ⇒
           val evt = BodyChanged(state.postId, newBody)
-          Persist(evt).andThen { _ ⇒
+          Effect.persist(evt).andThen { _ ⇒
             replyTo ! Done
           }
         case Publish(replyTo) ⇒
-          Persist(Published(state.postId)).andThen { _ ⇒
+          Effect.persist(Published(state.postId)).andThen { blog ⇒
             replyTo ! Done
           }
         case GetPost(replyTo) ⇒
           replyTo ! state.content.get
-          PersistNothing()
+          Effect.none
         case PassivatePost =>
-          Stop()
+          Effect.stop
       }
     }
 ```
 
-The command handler is a function with 3 parameters for the `ActorContext`, `Command`, and current `State`.
+The command handler is a function with 3 parameters for the `ActorContext`, current `State`, and `Command`.
 
 A command handler returns an `Effect` directive that defines what event or events, if any, to persist.
 
-* `Persist` will persist one single event
-* `PersistAll` will persist several events atomically, i.e. all events
+* `Effect.persist` will persist one single event or several events atomically, i.e. all events
   are stored or none of them are stored if there is an error
-* `PersistNothing` no events are to be persisted, for example a read-only command
-* `Unhandled` the command is unhandled (not supported) in current state
+* `Effect.none` no events are to be persisted, for example a read-only command
+* `Effect.unhandled` the command is unhandled (not supported) in current state
 
 External side effects can be performed after successful persist with the `andThen` function. In the above example a reply is sent to the `replyTo`. Note that the new state after applying the event is passed as parameter to the `andThen` function.
 
@@ -134,10 +133,10 @@ final case class BodyChanged(
 final case class Published(postId: String) extends BlogEvent
 ```
 
-When an event has been persisted successfully the current state is updated by applying the event to the current state with the `applyEvent` function. The event handler returns the new state, which must be immutable so you return a new instance of the state. The same event handler is also used when the entity is started up to recover its state from the stored events
+When an event has been persisted successfully the current state is updated by applying the event to the current state with the `eventHandler` function. The event handler returns the new state, which must be immutable so you return a new instance of the state. The same event handler is also used when the entity is started up to recover its state from the stored events.
 
 ```scala
-  private def applyEvent(event: BlogEvent, state: BlogState): BlogState =
+  private def eventHandler(state: BlogState, event: BlogEvent): BlogState =
     event match {
       case PostAdded(postId, content) ⇒
         state.withContent(content)
@@ -183,62 +182,62 @@ final case class PostContent(postId: String, title: String, body: String)
 
 ## Changing Behavior
 
-After processing a message an ordinary, non-persistent, typed actor returns the `Behavior` that is used for next message. As you can see in the above examples that is not supported by typed persistent actors. Instead, the state is returned by `applyEvent`. The reason a new behavior can't be returned is that behavior is part of the actor's state and must also carefully be reconstructed during recovery. If it would have been supported it would mean that the behavior must be restored when replaying events and also encoded in the state anyway when snapshots are used. That would be very prone to mistakes.
+After processing a message an ordinary, non-persistent, typed actor returns the `Behavior` that is used for next message. As you can see in the above examples that is not supported by typed persistent actors. Instead, the state is returned by `eventHandler`. The reason a new behavior can't be returned is that behavior is part of the actor's state and must also carefully be reconstructed during recovery. If it would have been supported it would mean that the behavior must be restored when replaying events and also encoded in the state anyway when snapshots are used. That would be very prone to mistakes.
 
 For simple actors you can use the same set of command handlers independent of what state the entity is in, as shown in above example.
 
-For more complex actors it's useful to be able to change the behavior in the sense that different functions for processing commands may be defined depending on what state the actor is in. This is useful when implementing finite state machine (FSM) like entities. The `Actions`, the command handler, can be selected based on current state by using the `Actions.byState` factory method. It is a function from current `State` to `Actions`, which is called for each incoming command to select which `Actions` to use to process the command.
+For more complex actors it's useful to be able to change the behavior in the sense that different functions for processing commands may be defined depending on what state the actor is in. This is useful when implementing finite state machine (FSM) like entities. The `CommandHandler` can be selected based on current state by using the `CommandHandler.byState` factory method. It is a function from current `State` to `CommandHandler`, which is called for each incoming command to select which `CommandHandler` to use to process the command.
 
 This is how to define different behavior for different `State`:
 
 ```scala
-  private val actions: Actions[BlogCommand, BlogEvent, BlogState] = Actions.byState {
+  private def commandHandler: CommandHandler[BlogCommand, BlogEvent, BlogState] = CommandHandler.byState {
     case state if state.isEmpty  ⇒ initial
     case state if !state.isEmpty ⇒ postAdded
   }
 
-  private val initial: Actions[BlogCommand, BlogEvent, BlogState] =
-    Actions { (ctx, cmd, state) ⇒
+  private def initial: CommandHandler[BlogCommand, BlogEvent, BlogState] =
+    CommandHandler { (ctx, state, cmd) ⇒
       cmd match {
         case AddPost(content, replyTo) ⇒
           val evt = PostAdded(content.postId, content)
-          Persist(evt).andThen { state2 ⇒
+          Effect.persist(evt).andThen { state2 ⇒
             // After persist is done additional side effects can be performed
             replyTo ! AddPostDone(content.postId)
           }
         case PassivatePost =>
-          Stop()
+          Effect.stop
         case other ⇒
-          Unhandled()
+          Effect.unhandled
       }
     }
 
-  private val postAdded: Actions[BlogCommand, BlogEvent, BlogState] = {
-    Actions { (ctx, cmd, state) ⇒
+  private def postAdded: CommandHandler[BlogCommand, BlogEvent, BlogState] = {
+    CommandHandler { (ctx, state, cmd) ⇒
       cmd match {
         case ChangeBody(newBody, replyTo) ⇒
           val evt = BodyChanged(state.postId, newBody)
-          Persist(evt).andThen { _ ⇒
+          Effect.persist(evt).andThen { _ ⇒
             replyTo ! Done
           }
         case Publish(replyTo) ⇒
-          Persist(Published(state.postId)).andThen { _ ⇒
+          Effect.persist(Published(state.postId)).andThen { _ ⇒
             println(s"Blog post ${state.postId} was published")
             replyTo ! Done
           }
         case GetPost(replyTo) ⇒
           replyTo ! state.content.get
-          PersistNothing()
+          Effect.none
         case _: AddPost ⇒
-          Unhandled()
+          Effect.unhandled
         case PassivatePost =>
-          Stop()
+          Effect.stop
       }
     }
   }
 ```
 
-The event handler is always the same independent of state. The main reason for not making the event handler part of the `Actions` is that all events must be handled and that is typically independent of what the current state is. The event handler can of course still decide what to do based on the state if that is needed.
+The event handler is always the same independent of state. The main reason for not making the event handler part of the `CommandHandler` is that all events must be handled and that is typically independent of what the current state is. The event handler can of course still decide what to do based on the state if that is needed.
 
 ## Serialization
 
@@ -265,8 +264,8 @@ object BlogPost {
     PersistentActor.persistentEntity[BlogCommand, BlogEvent, BlogState](
       persistenceIdFromActorName = name => ShardingTypeName.name + "-" + name,
       initialState = BlogState.empty,
-      actions = PersistentActor.Actions { (ctx, cmd, state) ⇒ ??? },
-      applyEvent = (evt, state) ⇒ ???)
+      commandHandler = PersistentActor.CommandHandler { (ctx, state, cmd) ⇒ ??? },
+      eventHandler = (state, evt) ⇒ ???)
 
 }
 ```

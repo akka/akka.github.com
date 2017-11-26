@@ -50,9 +50,9 @@ and 4 parameters:
 
 `initialState` defines the `State` when the entity is first created.
 
-`commandHandler` defines command handlers and optional functions for other signals, e.g. `Termination` messages if `watch` is used.
+`commandHandler` defines how to handle command and optional functions for other signals, e.g. `Termination` messages if `watch` is used.
 
-`eventHandler` is the event handler that updates the current state when an event has been persisted.
+`eventHandler` updates the current state when an event has been persisted.
 
 ## Command Handlers 
 

@@ -17,9 +17,10 @@ title: Get Involved
 		        </g>
 		    </g>
 		</svg>
-		<h1>Join the mailing list</h1>
-		<a href="https://groups.google.com/forum/#!forum/akka-user">5,500+ members</a>
-		<p>The Akka mailing list is where the Akka community meets. Asking and answering questions on the mailing list is a great way to share knowledge about Akka.</p>
+		<h1>Join the Discuss Akka forums</h1>
+		<a href="https://discuss.akka.io">Discuss with other Akka users</a>
+		<!-- <a href="https://groups.google.com/forum/#!forum/akka-user">5,500+ members</a> -->
+		<p>The Discuss Akka forums is where the Akka and Lightbend communities meet. Asking and answering questions on the forums is a great way to share knowledge about Akka. It also allows for a more open discussion than pure Q/A focused platforms.</p>
 	</div>
     <div class="box">
         <?xml version="1.0" encoding="UTF-8"?>

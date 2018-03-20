@@ -6,16 +6,9 @@ title: Get Involved
 <div class="communityContent">
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
-		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-		    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-		    <title>Mail</title>
-		    <desc></desc>
-		    <defs></defs>
-		    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-		        <g id="Mail" fill="#15A9CE">
-		            <path d="M2.0936886,5 L28,5 L15.0500808,14.9993259 L2.0936886,5 Z M2.0468443,25 L11.2589163,15.2723407 L15,18.0944261 L18.3922421,15.2723407 L27.9531557,25 L2.0468443,25 Z M2,8.00020223 L9.37046009,13.9849505 L2,21.0123134 L2,8.00020223 Z M27.9676477,8.00020223 L27.9676477,21.0123134 L20.5971876,13.9849505 L27.9676477,8.00020223 Z"></path>
-		        </g>
-		    </g>
+		<svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 50.4">
+		    <title>discuss</title>
+		    <path d="M18.2,36.2V18.8H7.6A5.59,5.59,0,0,0,2,24.4V41.2a5.59,5.59,0,0,0,5.6,5.6h2.8v8.4l8.4-8.4h14a5.59,5.59,0,0,0,5.6-5.6V36.1c-.2,0-.4.1-.6.1ZM52.4,4.8H27.2a5.59,5.59,0,0,0-5.6,5.6V32.8H41.2l8.4,8.4V32.8h2.8A5.59,5.59,0,0,0,58,27.2V10.4A5.59,5.59,0,0,0,52.4,4.8Z" transform="translate(-2 -4.8)" fill="#15a9ce"/>
 		</svg>
 		<h1>Join the Discuss Akka forums</h1>
 		<a href="https://discuss.akka.io">Discuss with other Akka users</a>
@@ -111,5 +104,4 @@ title: Get Involved
         <a href="{{ site.baseurl}}/community">See the community page</a>
 		<p>Create your own features on top of Akka, Akka HTTP or Akka Streams. Tag the project on Scaladex to get listed.</p>
 	</div>
-	
 </div>

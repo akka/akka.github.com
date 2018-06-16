@@ -1,0 +1,11 @@
+- name: Enno Runne
+  avatar: https://en.gravatar.com/avatar/aa7dc84848a809f47e21f4195ba1a8b2?s=160
+  title: Alpakka Tech Lead
+  twitter: ennru
+  desc: Enno got introduced to Java in 1996 by Martin Odersky at Karlsruhe Institute of Technology. After his studies and Master's thesis on implementing Java Generics he moved to Sweden for love, and started his IT career building the Swedish national prescription registry and diverse other projects. Enno founded the Scala Stockholm user group in 2010 and is involved in the Jfokus developers' conference.
+
+- name: Martynas Mickevičius
+  avatar: https://s.gravatar.com/avatar/57ed73ccebd016ee0e4d5e906d674a50?s=160
+  twitter: mmartynas
+  desc: Martynas has acquired his formal education from Vilnius University while working on coding theory and cryptography fusion during his M.Sc degree studies. After this brief introduction to academia he continued his endeavours in the industry working on various banking and transportation systems which lead him to distributed computing and the Akka project.
+

@@ -1,4 +1,4 @@
-# AKKA.IO
+# akka.io
 
 This repository contains the source of the [akka.io](http://akka.io) website. It's built using Jekyll.
 

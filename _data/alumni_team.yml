@@ -15,6 +15,11 @@
   twitter: rolandkuhn
   desc: After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Lightbend 2011-2016 where he was leading the Akka project from November 2012. <a href="http://rolandkuhn.com/">rolandkuhn.com</a>
 
+- name: Konrad 'ktoso' Malawski
+  avatar: http://www.gravatar.com/avatar/e22c5a2db4101b4c4037d5f6bba2128d.png?s=160
+  twitter: ktosopl
+  desc: Konrad is a late-night passionate dev, living by the motto "Life is Study!". His favourite discussion topics range from distributed systems and type systems to capybaras. In those rare times he is not coding, he spreads the joy of computer science, through helping local user groups and computer science reading clubs.
+
 - name: Endre Sándor Varga
   avatar: http://www.gravatar.com/avatar/e00d3476c1ca077dd6ba6897e724655d?s=160
   twitter: drewhk

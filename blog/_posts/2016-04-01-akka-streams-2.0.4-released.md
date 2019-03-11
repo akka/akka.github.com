@@ -10,7 +10,7 @@ tags: [releases]
 
 *Dear Hakkers,*
 
-we—the Akka committers—are happy to announce the fourth maintenance release of [Akka Streams & HTTP 2.0](http://akka.io/news/2015/12/21/akka-streams-2.0-released.html).
+we—the Akka committers—are happy to announce the fourth maintenance release of [Akka Streams & HTTP 2.0](https://akka.io/news/2015/12/21/akka-streams-2.0-released.html).
 This update addresses stability issues for those who can not upgrade to Akka 2.4.x.
 
 Fixes in this release include:
@@ -30,11 +30,11 @@ Fixes in this release include:
 
 The full list of changes since the last milestone is available under the [stream-http-2.0.4](https://github.com/akka/akka/issues?q=milestone%3Astream-http-2.0.4+is%3Aclosed) milestone on github for your reference.
 
-The reference documentation for the 2.0.4 release can be found here for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html).
+The reference documentation for the 2.0.4 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html).
 
 If you are upgrading from the old 1.0.x series, you may want to read the following
-[migration guide for Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java/migration-guide-1.0-2.x-java.html)
-or [migration guide for Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala/migration-guide-1.0-2.x-scala.html).
+[migration guide for Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java/migration-guide-1.0-2.x-java.html)
+or [migration guide for Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala/migration-guide-1.0-2.x-scala.html).
 
 #### Credits ####
 

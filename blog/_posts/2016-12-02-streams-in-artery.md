@@ -26,7 +26,7 @@ The new remoting implementation for actor messages was released in Akka 2.4.11 t
 
 * Providing protocol stability across major Akka versions to support rolling cross-version updates of large-scale systems
 
-In the [documentation](http://doc.akka.io/docs/akka/2.4/scala/remoting-artery.html) you can find how to use these features, so in the blog we will take a look under the hood and describe how we implemented some of it. In this first post I will show an overview of how we have used Akka Streams in Artery. You don’t need to know any of this to use Akka but you might be curious and learn some things from it.
+In the [documentation](https://doc.akka.io/docs/akka/2.4/scala/remoting-artery.html) you can find how to use these features, so in the blog we will take a look under the hood and describe how we implemented some of it. In this first post I will show an overview of how we have used Akka Streams in Artery. You don’t need to know any of this to use Akka but you might be curious and learn some things from it.
 
 Naturally, we wanted dogfood our own Akka Streams, but also when looking at it from an objective perspective Akka Streams is a good fit for Artery, and generally speaking any such protocol pipelines.
 
@@ -42,7 +42,7 @@ The following diagram illustrates the stages of the outbound and inbound streams
 
 The ActorSystem must have a known address for inbound messages. This corresponds to an Aeron UDP channel that is bound to a hostname and port. This binding is created by the `AeronSource` stage in the inbound stream.
 
-We wanted isolation of internal control and system messages from ordinary messages to avoid head of the line blocking for important messages, such as failure detection heartbeat messages. Therefore we have used two separate Aeron sub-channels (stream in Aeron [terminology](https://github.com/real-logic/Aeron/wiki/Protocol-Specification#terminology)) for each channel. One for control and system messages and another for user messages. There is optionally also a third Aeron sub-channel for [large messages](http://doc.akka.io/docs/akka/2.4/scala/remoting-artery.html#Dedicated_subchannel_for_large_messages). For each of these Aeron sub-channels we run a separate Akka stream.
+We wanted isolation of internal control and system messages from ordinary messages to avoid head of the line blocking for important messages, such as failure detection heartbeat messages. Therefore we have used two separate Aeron sub-channels (stream in Aeron [terminology](https://github.com/real-logic/Aeron/wiki/Protocol-Specification#terminology)) for each channel. One for control and system messages and another for user messages. There is optionally also a third Aeron sub-channel for [large messages](https://doc.akka.io/docs/akka/2.4/scala/remoting-artery.html#Dedicated_subchannel_for_large_messages). For each of these Aeron sub-channels we run a separate Akka stream.
 
 The following diagram shows how the stages are composed for the control streams. Compared to the streams for the ordinary messages (see above) the control streams handle more things, e.g. reliable delivery of system messages. 
 

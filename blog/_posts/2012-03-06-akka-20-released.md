@@ -26,7 +26,7 @@ to Jonas, to all committers, to all users and to the excellent Scala and Java ec
 * 98683 insertions(+)
 * 57415 deletions(-)
 
-Also including over 300 pages of reference documentation, and tons of ScalaDoc, available at [http://doc.akka.io/docs/akka/2.0/](http://doc.akka.io/docs/akka/2.0/).
+Also including over 300 pages of reference documentation, and tons of ScalaDoc, available at [https://doc.akka.io/docs/akka/2.0/](https://doc.akka.io/docs/akka/2.0/).
 
 Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 
@@ -99,7 +99,7 @@ Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 * Huge thanks to Karim Osman and Ivan Porto Carrero
 * Built as an Akka Extension
 
-Brand new website, still at [http://akka.io](http://akka.io), huge thanks to Heather Miller for her outstanding work
+Brand new website, still at [https://akka.io](https://akka.io), huge thanks to Heather Miller for her outstanding work
 
 ## Upcoming Releases
 
@@ -111,8 +111,8 @@ Things that will be released within the coming months:
 ## Useful Links
 
 * Akka Maven repository: [http://repo.akka.io/releases](http://repo.akka.io/releases)
-* Akka binary distribution: [http://akka.io/downloads](http://akka.io/downloads)
-* Akka 2.0 documentation: [http://doc.akka.io/docs/akka/2.0/](http://doc.akka.io/docs/akka/2.0/)
+* Akka binary distribution: [https://akka.io/downloads](https://akka.io/downloads)
+* Akka 2.0 documentation: [https://doc.akka.io/docs/akka/2.0/](https://doc.akka.io/docs/akka/2.0/)
 * Issue tracker: [http://www.assembla.com/spaces/akka/](http://www.assembla.com/spaces/akka/)
 * Akka mailing list: [https://groups.google.com/group/akka-user](https://groups.google.com/group/akka-user)
 

@@ -12,7 +12,7 @@ tags: [actor,typed]
 
 In the [introduction blog post]({{ site.baseurl }}/blog/2017/05/05/typed-intro) we introduced the APIs `Actor.mutable` and `Actor.immutable`. We recommend the immutable style as the “default choice” and now we will illustrate the two styles with another example and elaborate more around when to use the mutable vs. immutable style.
 
-In this post we will look at how to implement a round-robin router with Akka Typed. By the way, [Routers](http://doc.akka.io/docs/akka/2.5/scala/routing.html) are something that is not implemented in Akka Typed yet. It can be a nice feature to package some typical routers as reusable behaviors with some configuration options. However, we will not implement the call-site routing in the router actor references, since that adds a lot of complexity. It's better to let a router be an ordinary actor.
+In this post we will look at how to implement a round-robin router with Akka Typed. By the way, [Routers](https://doc.akka.io/docs/akka/2.5/scala/routing.html) are something that is not implemented in Akka Typed yet. It can be a nice feature to package some typical routers as reusable behaviors with some configuration options. However, we will not implement the call-site routing in the router actor references, since that adds a lot of complexity. It's better to let a router be an ordinary actor.
 
 Let's start with the immutable style. This is how a round-robin router may look like:
 

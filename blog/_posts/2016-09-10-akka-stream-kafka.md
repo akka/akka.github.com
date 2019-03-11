@@ -40,7 +40,7 @@ result.onFailure {
 }
 ```
 
-More examples in Java and Scala, with explanations, can be found in the [documentation](http://doc.akka.io/docs/akka-stream-kafka/current/home.html).
+More examples in Java and Scala, with explanations, can be found in the [documentation](https://doc.akka.io/docs/akka-stream-kafka/current/home.html).
 
 Secondly, there are significant performance improvements. We’ve done some benchmarks, and while there is still some overhead from the reactive-kafka wrapper (though keep in mind, that you also get something in return: e.g. all of the benefits coming from a nice API with asynchronous backpressure!), the overall numbers look very good and are getting better.
 

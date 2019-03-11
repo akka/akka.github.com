@@ -72,7 +72,7 @@ That looks rather straightforward, but there is a subtle bug in the code. Can yo
 
 No worries, it’s difficult to spot.
 
-How would we write a test for this stage? When we want full control of when elements are produced from upstream and consumed from downstream the `TestSource` and `TestSink` in the [Akka Streams Teskit](http://doc.akka.io/docs/akka/2.4/scala/stream/stream-testkit.html#Streams_TestKit) are handy.
+How would we write a test for this stage? When we want full control of when elements are produced from upstream and consumed from downstream the `TestSource` and `TestSink` in the [Akka Streams Teskit](https://doc.akka.io/docs/akka/2.4/scala/stream/stream-testkit.html#Streams_TestKit) are handy.
 
 ```scala
 

@@ -31,15 +31,15 @@ We now have all mechanisms in place, but we have not yet actually optimized for 
 Many of you have already started using Streams & HTTP, in which case you will unfortunately have to adapt your code. For the most part the changes are mechanical—some classes have been moved to their proper packages and some methods have been renamed for consistency reasons—and all of the required changes are described in the migration guide linked below.
 
 
-*   Java: [http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html)
+*   Java: [https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html)
 
-*   Scala: [http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html)
+*   Scala: [https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html)
 
 **Closing Remarks**
 
 We would like to give our special thanks and kudos to Alexander Golubev, who has continuously contributed a steady stream of new features to Akka Streams while we were busy working on the internals. Thanks! We also thank @2beaucoup for his continued effort in reviews and fixes in Http. And of course we thank all of the 42 individuals that contributed to this part of Akka’s success!
 
-The reference documentation for the 2.0 release can be found here for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala.html).
+The reference documentation for the 2.0 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala.html).
 
 The full list of changes since the last milestone is available under the [streams-2.0](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astreams-2.0+is%3Aclosed) and [http-2.0](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Ahttp-2.0+is%3Aclosed) milestones on github for your reference.
 

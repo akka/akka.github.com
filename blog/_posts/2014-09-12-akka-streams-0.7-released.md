@@ -43,9 +43,9 @@ Then in order to connect these Flows into a complex stream processing graph
     val sub = in.subscriber(g)
     val pub = out.publisher(g)
 
-The [previous Flow/Duct DSL](http://doc.akka.io/api/akka-stream-and-http-experimental/0.6/#akka.stream.package) — which 
+The [previous Flow/Duct DSL](https://doc.akka.io/api/akka-stream-and-http-experimental/0.6/#akka.stream.package) — which 
 is still present in the scaladsl & javadsl packages and will be removed in the next milestone – has now been unified 
-in the [scaladsl2 package](http://doc.akka.io/api/akka-stream-and-http-experimental/0.7/#akka.stream.scaladsl2.package) 
+in the [scaladsl2 package](https://doc.akka.io/api/akka-stream-and-http-experimental/0.7/#akka.stream.scaladsl2.package) 
 and sliced differently: all operations that mediate between one input stream and one output stream (map, filter, etc.; 
 also groupBy produces only one primary output stream) are defined on Flow, while all other "plumbing" operations are 
 modeled as a graph that can capture any desired topology — cycles are an advanced feature that needs to be explicitly 

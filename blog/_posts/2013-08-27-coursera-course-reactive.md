@@ -18,7 +18,7 @@ Manifesto](http://www.reactivemanifesto.org/), illustrating the techniques
 using Scala’s
 [Futures](http://docs.scala-lang.org/overviews/core/futures.html), Netflix’
 [RxJava](https://github.com/Netflix/RxJava/tree/master/language-adaptors/rxjava-scala)
-and [Akka actors](http://doc.akka.io/docs/akka/2.2.0/general/actors.html).
+and [Akka actors](https://doc.akka.io/docs/akka/2.2.0/general/actors.html).
 Typesafe is offering [online
 tutoring](http://typesafe.com/blog/announcing_typesafe_new_coursera_tutoring_program)
 accompanying the course.

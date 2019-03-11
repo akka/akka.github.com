@@ -10,8 +10,8 @@ tags: [releases]
 
 *Dear Hakkers,*
 
-we—the Akka committers—are happy to announce the third maintenance release of [Akka Streams & HTTP 2.0](http://akka.io/news/2015/12/21/akka-streams-2.0-released.html).
-This minor update addresses a couple of stability issues discovered recently for those who can not upgrade to [Akka 2.4.2-RC1](http://akka.io/news/2016/01/26/akka-2.4.2-RC1-released.html).
+we—the Akka committers—are happy to announce the third maintenance release of [Akka Streams & HTTP 2.0](https://akka.io/news/2015/12/21/akka-streams-2.0-released.html).
+This minor update addresses a couple of stability issues discovered recently for those who can not upgrade to [Akka 2.4.2-RC1](https://akka.io/news/2016/01/26/akka-2.4.2-RC1-released.html).
 
 Fixes in this release include:
 
@@ -19,11 +19,11 @@ Fixes in this release include:
 - Akka HTTP WebSocket connections reset [#19467](https://github.com/akka/akka/issues/19467)
 - Missing convenience class ContentTypes for javadsl [#18600](https://github.com/akka/akka/issues/18600)
 
-The reference documentation for the 2.0.3 release can be found here for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala.html).
+The reference documentation for the 2.0.3 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala.html).
 
 If you are upgrading from the old 1.0.x series, you may want to read the following
-[migration guide for Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java/migration-guide-1.0-2.x-java.html)
-or [migration guide for Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala/migration-guide-1.0-2.x-scala.html).
+[migration guide for Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/java/migration-guide-1.0-2.x-java.html)
+or [migration guide for Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.3/scala/migration-guide-1.0-2.x-scala.html).
 
 The full list of changes since the last milestone is available under the [stream-http-2.0.3](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astream-http-2.0.3+is%3Aclosed) milestone on github for your reference.
 

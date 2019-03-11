@@ -19,7 +19,7 @@ To not leave you waiting for some actual technical meat, we’ve decided to alre
 
 ## Contributing highly encouraged!
 
-When we merged Akka Streams into mainline Akka in the 2.4.2 release in February earlier this year and announced it as a stable module ([read up here what stable and experimental mean](http://doc.akka.io/docs/akka/2.4/common/binary-compatibility-rules.html)) it also meant a transition into a more stable development cycle of the core library. For library authors and the wider community though, that moment marked the beginning of rapid expansion and evolution of their libraries. We saw multiple excellent projects based on top of Akka Streams spring into life in the last months.
+When we merged Akka Streams into mainline Akka in the 2.4.2 release in February earlier this year and announced it as a stable module ([read up here what stable and experimental mean](https://doc.akka.io/docs/akka/2.4/common/binary-compatibility-rules.html)) it also meant a transition into a more stable development cycle of the core library. For library authors and the wider community though, that moment marked the beginning of rapid expansion and evolution of their libraries. We saw multiple excellent projects based on top of Akka Streams spring into life in the last months.
 
 We’re also continuously working on making it simpler to contribute. For example, since quite some time we’ve been using the tags to mark easy to contribute issues on our issue tracker. Today we renamed that tag to [community](https://github.com/akka/akka/labels/community), which means that those are nice tickets to be contributed by the community, as the core team is unlikely to spend much time on them in the near future. We also have [nice-to-have (low-priority)](https://github.com/akka/akka/issues?utf8=%E2%9C%93&q=is%3Aopen%20is%3Aissue%20label%3A%22nice-to-have%20(low-prio)%22%20) and [documentation](https://github.com/akka/akka/issues?q=is%3Aopen+is%3Aissue+label%3At%3Adocs) tags, so you should be able to find a ticket just right for your first contribution.
 
@@ -55,7 +55,7 @@ We hope this kind of get together will become our small tradition, and hope to s
 
 ## This blog’s relation to other blogs
 
-The [akka.io/news](http://akka.io/news/) site will remain unchanged, as it hosts only release announcements and important roadmap updates. 
+The [akka.io/news](https://akka.io/news/) site will remain unchanged, as it hosts only release announcements and important roadmap updates. 
 
 The [letitcrash.com](http://letitcrash.com/) blog will be kept as-is, which is mostly as archive of old yet still very relevant posts as well as an aggregator of links to interesting blog posts. We do not plan to maintain it from now on though, as the need for aggregating Akka / Scala related blogs is nowadays served very well by the excellent [this week in #scala](http://www.cakesolutions.net/teamblogs) series by Cake Solutions as well as the [ScalaTimes](http://scalatimes.com/) by SoftwareMill, thus the need for such re-blogging has lessened significantly. 
 

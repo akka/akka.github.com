@@ -43,9 +43,9 @@ We would like to give our special thanks and kudos to Alexander Golubev, who has
 The full list of changes in this milestone is available under the streams-2.0-M2 and http-2.0-M2 milestones on github for your reference.
 
 Migration guides from 1.0 are available for
-[Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/java/migration-guide-1.0-2.x-java.html)
+[Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/java/migration-guide-1.0-2.x-java.html)
 and
-[Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/scala/migration-guide-1.0-2.x-scala.html)
+[Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/scala/migration-guide-1.0-2.x-scala.html)
 
 For this release we had the help of 12 committers.
 

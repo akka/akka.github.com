@@ -10,7 +10,7 @@ tags: [releases]
 
 *Dear Hakkers,*
 
-we—the Akka committers—are happy to announce the second maintenance release of [Akka Streams & HTTP 2.0](http://akka.io/news/2015/12/21/akka-streams-2.0-released.html). 
+we—the Akka committers—are happy to announce the second maintenance release of [Akka Streams & HTTP 2.0](https://akka.io/news/2015/12/21/akka-streams-2.0-released.html). 
 This minor update addresses a number of stability issues discovered recently, mostly in the HTTP and WebSocket code.
 
 Meanwhile, we have moved all new Streams & HTTP development to the master branch, which means that these, as previously announced, 
@@ -22,11 +22,11 @@ The most notable fixes in this release include:
 - Empty.head in Websockets [#19417](https://github.com/akka/akka/issues/19417)
 - scalac bug when using members of MediaTypes in a map [#19418](https://github.com/akka/akka/issues/19418)
 
-The reference documentation for the 2.0.2 release can be found here for [Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java.html) and [Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala.html).
+The reference documentation for the 2.0.2 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala.html).
 
 If you are upgrading from the old 1.0.x series, you may want to read the following 
-[migration guide for Java](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java/migration-guide-1.0-2.x-java.html) 
-or [migration guide for Scala](http://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala/migration-guide-1.0-2.x-scala.html).
+[migration guide for Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java/migration-guide-1.0-2.x-java.html) 
+or [migration guide for Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala/migration-guide-1.0-2.x-scala.html).
 
 The full list of changes since the last milestone is available under the [stream-http-2.0.2](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astream-http-2.0.2+is%3Aclosed) milestone on github for your reference.
 

@@ -56,7 +56,7 @@ After consulting the documentation of the external library and making sure that 
 
 > Any additional messages which arrive while an implementation of this method is running, will build up in memory, and will then back up on the network.
 
-We will create two hooks in the implementation of the `messageArrived` callback. `beforeHandleMessage` is going to be executed on the library thread, and `handleMessage` is going to be called in the context of `GraphStage` as an [`AsyncCallback`](http://doc.akka.io/api/akka/2.4/#akka.stream.stage.AsyncCallback):
+We will create two hooks in the implementation of the `messageArrived` callback. `beforeHandleMessage` is going to be executed on the library thread, and `handleMessage` is going to be called in the context of `GraphStage` as an [`AsyncCallback`](https://doc.akka.io/api/akka/2.4/#akka.stream.stage.AsyncCallback):
 
 ```scala
 def beforeHandleMessage(): Unit

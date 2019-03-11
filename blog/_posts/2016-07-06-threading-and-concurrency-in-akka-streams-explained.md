@@ -33,7 +33,7 @@ val system = ActorSystem("LifecycleDemo")
 implicit val materializer = ActorMaterializer.create(system)
 </code></pre>
 
-In Akka Streams, we mostly think in terms of computations -"boxes" that can accept and emit elements of a certain type in sequence on their various ports. In this view, a Source is not a static collection of elements; not like an Iterator, because computations can happen asynchronously, working concurrently with other computations. An Iterator always executes any chained computations on the caller thread. For more details on the role of modularity I recommend this section in the documentation: [http://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html](http://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html)
+In Akka Streams, we mostly think in terms of computations -"boxes" that can accept and emit elements of a certain type in sequence on their various ports. In this view, a Source is not a static collection of elements; not like an Iterator, because computations can happen asynchronously, working concurrently with other computations. An Iterator always executes any chained computations on the caller thread. For more details on the role of modularity I recommend this section in the documentation: [https://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html](https://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html)
 
 In this post I assume some familiarity with the concepts explained in the linked documentation page.
 
@@ -91,7 +91,7 @@ We immediately get an answer why our previous attempts failed. First, the stream
 We already know that the stream will run on a different thread, but it is not  clear yet how different pieces/computations of pipelines execute. We’re modifying our example by adding multiple stages of computations:
 
 1. We replace `.to(..).run()` with the shorthand `.runWith()`
-2. The above change also affected our materialized value (for those unaware of materialized values, please read the relevant section of the documentation [http://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html#Materialized_values](http://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html#Materialized_values)), returning a Future which completes once Sink.foreach completes processing.
+2. The above change also affected our materialized value (for those unaware of materialized values, please read the relevant section of the documentation [https://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html#Materialized_values](https://doc.akka.io/docs/akka/2.4/scala/stream/stream-composition.html#Materialized_values)), returning a Future which completes once Sink.foreach completes processing.
 3. We only shut down the ActorSystem after the stream has completed (by using `onComplete` on the returned materialized value which is a `Future`)
 4. We print the current thread at each stage
 

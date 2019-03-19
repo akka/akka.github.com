@@ -11,10 +11,14 @@ Dear hakkers,
 
 We are happy to announce the general availability of Akka Management 1.0.0.
 
-With this release we declare stable APIs for the core modules. The core 
+With this release we declare stable APIs for the core modules. The main
 Discovery module, that was still part of Akka Management in 0.20.0, has even
 been promoted to [the main Akka
 project](https://doc.akka.io/docs/akka/current/discovery/index.html).
+With the exception of the community maintained modules listed in the
+[README](https://github.com/akka/akka-management#project-status), the
+[Lightbend Platform Subscription](https://www.lightbend.com/lightbend-platform-subscription)
+now covers support for Akka Management.
 
 This will make Akka Management a shared building block across the
 [Lightbend Platform](https://www.lightbend.com/lightbend-platform),

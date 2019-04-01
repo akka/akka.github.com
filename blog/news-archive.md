@@ -1,7 +1,9 @@
 ---
 layout: news-main
 title: News Archive
-redirect_from: "/news/all-news.html"
+redirect_from:
+ - "/news/all-news.html"
+ - "/releases/"
 group: navigation
 ---
 

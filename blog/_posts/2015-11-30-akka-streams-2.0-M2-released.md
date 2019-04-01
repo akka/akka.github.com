@@ -20,7 +20,7 @@ The tireless refactoring of our internals have been continuing. In this release 
 
 One new superpower Akka Streams gained thanks to the new unified internals is the *fuzzing-mode* execution which helps to achieve better code path coverage in stream tests. If this mode is enabled the execution engine will aggressively reschedule, or even explicitly reorder events that are not causally related—exposing many race conditions as a result. This mode is enabled for all of our internal test cases now for streams, and will be soon enabled for HTTP tests, too. See the testing documentation for details.
 
-With the new milestone arrived new API refactorings. The File and Input/OutputStream related support is now moved to the Source and Sink classes directly (e.g. Source.file()) instead of their own classes for better discoverability (previously SynchronousFileSource, SynchronousFileSink, InputStreamSource and OutputStreamSink). See the migration guide for details.
+With the new milestone arrived new API refactorings. The File and Input/OutputStream related support is now moved to the Source and Sink classes directly (e.g. Source.file()) instead of their own classes for better discoverability (previously SynchronousFileSource, SynchronousFileSink, InputStreamSource and OutputStreamSink).
 
 There are some new features available as well, most notably there are now a `headOption` on Sink, a `throttle` on Sources and Flows.
 
@@ -41,11 +41,6 @@ What comes next? We have in progress several improvements that will likely arriv
 We would like to give our special thanks and kudos to Alexander Golubev, who has been continuing to contribute a steady stream of new feature to Akka Streams while we were busy working on the internals. Thanks! We also thank @2beaucoup for his continued effort in reviews and fixes in Http.
 
 The full list of changes in this milestone is available under the streams-2.0-M2 and http-2.0-M2 milestones on github for your reference.
-
-Migration guides from 1.0 are available for
-[Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/java/migration-guide-1.0-2.x-java.html)
-and
-[Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0-M2/scala/migration-guide-1.0-2.x-scala.html)
 
 For this release we had the help of 12 committers.
 

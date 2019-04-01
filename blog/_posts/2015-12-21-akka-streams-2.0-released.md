@@ -26,15 +26,6 @@ Moving to 2.4.x means that we will also have access to all nice Java 8 library f
 
 We now have all mechanisms in place, but we have not yet actually optimized for performance—although sizable improvements are already there by enabling operator fusion. Both the functionality as well as the overhead of the fusing function will see improvements, and we have not even begun looking into the profiling data for our stream processing engine. While it is possible to run the HTTP server with a pre-fused flow, we have not included this enhancement in this release—it arrived too late to be certain that it works as expected. All this together means that during the next weeks there will be a lot of activity around optimizing all aspects of Akka Streams & HTTP and the hunting season for performance gains is now officially open: if you always wanted to contribute an Akka speed increment then now is the time to warm up your profiler and HTTP load generator.
 
-**Migrating from Version 1.0**
-
-Many of you have already started using Streams & HTTP, in which case you will unfortunately have to adapt your code. For the most part the changes are mechanical—some classes have been moved to their proper packages and some methods have been renamed for consistency reasons—and all of the required changes are described in the migration guide linked below.
-
-
-*   Java: [https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/java/migration-guide-1.0-2.x-java.html)
-
-*   Scala: [https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0/scala/migration-guide-1.0-2.x-scala.html)
-
 **Closing Remarks**
 
 We would like to give our special thanks and kudos to Alexander Golubev, who has continuously contributed a steady stream of new features to Akka Streams while we were busy working on the internals. Thanks! We also thank @2beaucoup for his continued effort in reviews and fixes in Http. And of course we thank all of the 42 individuals that contributed to this part of Akka’s success!

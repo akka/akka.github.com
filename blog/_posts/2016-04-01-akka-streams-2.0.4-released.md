@@ -32,10 +32,6 @@ The full list of changes since the last milestone is available under the [stream
 
 The reference documentation for the 2.0.4 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html).
 
-If you are upgrading from the old 1.0.x series, you may want to read the following
-[migration guide for Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java/migration-guide-1.0-2.x-java.html)
-or [migration guide for Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala/migration-guide-1.0-2.x-scala.html).
-
 #### Credits ####
 
     commits added removed

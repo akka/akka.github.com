@@ -9,6 +9,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width" />
 
+    {% if page.canonical_url %}
+    <link rel="canonical" href="{{ page.canonical_url }}">
+    {% endif %}
     <link rel="shortcut icon"  href="{{ site.baseurl }}/resources/favicon.ico">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/resources/apple-touch-icon.png">
   ￼ <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/resources/favicon-32x32.png">

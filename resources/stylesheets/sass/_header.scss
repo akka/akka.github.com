@@ -1,6 +1,6 @@
 header {
 	background-color: #fff;
-	height: 75px;
+	height: 95px;
 	position: relative;
 	top: 0px;
 	width: 100%;
@@ -11,7 +11,7 @@ header {
 		}
 		.svg-logo {
 			height: 75px;
-			margin-left: -8px
+			margin: 10px 0 0 -8px;
 		}
 	}
 	@include single-column {
@@ -19,7 +19,7 @@ header {
 		.logo {
 			.svg-logo {
 				height: 60px;
-				margin-left: 0
+				margin: 3px 0 0 0;
 			}
 		}
 	}
@@ -35,8 +35,8 @@ header {
 			a {
 				float: none;
 				padding: 15px;
-				height: 45px;
-				line-height: 45px;
+				height: 65px;
+				line-height: 65px;
 				color: #0B5567;
 				text-decoration: none;
 				@include x-rem(font-size, 1.4);

@@ -111,10 +111,11 @@
     }
     img {
         width: 100%;
+        padding: 20px;
     }
     @include tablet-portrait-and-below {
         img {
-            width: 50%;
+            width: 40%;
         }
     }
     a {

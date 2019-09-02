@@ -7,12 +7,21 @@ title: Get Involved
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 50.4">
+		    <title>Code of Conduct</title>
+		    <path d="M18.2,36.2V18.8H7.6A5.59,5.59,0,0,0,2,24.4V41.2a5.59,5.59,0,0,0,5.6,5.6h2.8v8.4l8.4-8.4h14a5.59,5.59,0,0,0,5.6-5.6V36.1c-.2,0-.4.1-.6.1ZM52.4,4.8H27.2a5.59,5.59,0,0,0-5.6,5.6V32.8H41.2l8.4,8.4V32.8h2.8A5.59,5.59,0,0,0,58,27.2V10.4A5.59,5.59,0,0,0,52.4,4.8Z" transform="translate(-2 -4.8)" fill="#15a9ce"/>
+		</svg>
+		<h1>Code of Conduct</h1>
+		<a href="https://www.lightbend.com/conduct">Read the Code of Conduct</a>
+		<p>The Akka community is committed to providing a friendly, safe and welcoming environment for all. The Code of Conduct outlines standards of behavior and moderation policies in Akka community channels.</p>
+	</div>
+	<div class="box">
+		<?xml version="1.0" encoding="UTF-8"?>
+		<svg width="60px" height="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 50.4">
 		    <title>discuss</title>
 		    <path d="M18.2,36.2V18.8H7.6A5.59,5.59,0,0,0,2,24.4V41.2a5.59,5.59,0,0,0,5.6,5.6h2.8v8.4l8.4-8.4h14a5.59,5.59,0,0,0,5.6-5.6V36.1c-.2,0-.4.1-.6.1ZM52.4,4.8H27.2a5.59,5.59,0,0,0-5.6,5.6V32.8H41.2l8.4,8.4V32.8h2.8A5.59,5.59,0,0,0,58,27.2V10.4A5.59,5.59,0,0,0,52.4,4.8Z" transform="translate(-2 -4.8)" fill="#15a9ce"/>
 		</svg>
 		<h1>Join the Discuss Akka forums</h1>
 		<a href="https://discuss.akka.io">Discuss with other Akka users</a>
-		<!-- <a href="https://groups.google.com/forum/#!forum/akka-user">5,500+ members</a> -->
 		<p>The Discuss Akka forums is where the Akka and Lightbend communities meet. Asking and answering questions on the forums is a great way to share knowledge about Akka. It also allows for a more open discussion than pure Q/A focused platforms.</p>
 	</div>
     <div class="box">
@@ -32,6 +41,8 @@ title: Get Involved
         <a href="https://gitter.im/akka/akka">Chat with other Akka users</a>
         <p>The akka/akka gitter channel is available for ad-hoc discussions of all things Akka-related with the community and the Akka team.</p>
     </div>
+</div>
+<div class="communityContent">
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="50px" height="60px" viewBox="0 0 22 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -49,8 +60,6 @@ title: Get Involved
 		<a href="//stackoverflow.com/questions/tagged/akka">4,500+ questions with answers</a>
 		<p>Stack Overflow is a Q&A site for programmers. Stack Overflow has a very active community of people asking and answering questions about Akka.</p>
 	</div>
-</div>
-<div class="communityContent">
     <div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -87,6 +96,8 @@ title: Get Involved
 		  Akka's code and documentation is hosted on Github. It's easy to get the code and build Akka from source.
 		</p>
 	</div>
+</div>
+<div class="communityContent">
 	<div class="box">
 		<?xml version="1.0" encoding="UTF-8"?>
 		<svg width="60px" height="60px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

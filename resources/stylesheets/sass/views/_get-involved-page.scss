@@ -11,6 +11,8 @@
 			@include box-shadow;
 			width: 32%;
 			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
 			@include single-column {
 				width: 100%;
 				margin-bottom: 30px;

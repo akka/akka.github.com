@@ -9,3 +9,7 @@
   twitter: mmartynas
   desc: Martynas has acquired his formal education from Vilnius University while working on coding theory and cryptography fusion during his M.Sc degree studies. After this brief introduction to academia he continued his endeavours in the industry working on various banking and transportation systems which lead him to distributed computing and the Akka project.
 
+- name: Sean Glover
+  avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
+  twitter: seg1o
+  desc: Sean has been working as a professional software engineer since 2006. He has held a variety of product development and consulting roles at startups in spaces that include credit card fraud, business analytics, and customer experience management. More recently he has specialized in writing software that enables people to build high throughput & low latency data streaming platforms. Sean has organized the Scala Toronto meetup since 2013. <a href="http://seanglover.com">seanglover.com</a>

@@ -1,0 +1,24 @@
+<li>
+    <a href="{{ p.url }}" alt="{{ p.title }}">
+        <div class="newsDate">
+            <p>{{ p.date | date: "%b" }}</p>
+            <p>{{ p.date | date: "%d" }}</p>
+            <p>{{ p.date | date: "%Y" }}</p>
+        </div>
+        {% if p.short %}
+        <div class="newsContent">
+            <h1>{{ p.title }}</h1>
+            <p>{{ p.author }}</p>
+            <p>{{ p.short }}</p>
+            <h3>Tags: {% for t in p.tags %}<span>{{t}} </span>{% endfor %}</h3>
+        </div>
+        {% else %}
+        <div class="newsContent">
+            <h1>{{ p.title }}</h1>
+            <p>{{ p.author }}</p>
+            <p>{{ p.content | strip_html | truncatewords: 30 }}</p>
+            <h3>Tags: {% for t in p.tags %}<span>{{t}} </span>{% endfor %}</h3>
+        </div>
+        {% endif %}
+    </a>
+</li>

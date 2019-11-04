@@ -3,7 +3,9 @@ layout: page
 title: Presentations and Blogs
 ---
 
-Many people have reported about their work with Akka in different forms. Find a few presentaions, blogs and articles below.
+Let's learn from each other! Many people have shared their experiences with Akka in presentations, blogs and webcasts. We've collected a few presentations and blogs below.
+
+Feel free to suggest additions to this list. A great way to do that is by sharing a link to it in the [Akka forum](https://discuss.akka.io).
 
 <section class="wrapper indexLatest">
     <div class="row">

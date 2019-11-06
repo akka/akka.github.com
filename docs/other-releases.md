@@ -21,10 +21,10 @@ Documentation:
 Akka 2.5 was the previous stable version. Only patched if critical bugs are found.
 
 Documentation:
-[Java Manual](https://doc.akka.io/docs/akka/current/index.html?language=java)
-[Java API](https://doc.akka.io/japi/akka/2.4)
-[Scala Manual](https://doc.akka.io/docs/akka/current/index.html?language=scala)
-[Scala API](https://doc.akka.io/api/akka/2.4)
+[Java Manual](https://doc.akka.io/docs/akka/2.5/index.html?language=java)
+[Java API](https://doc.akka.io/japi/akka/2.5)
+[Scala Manual](https://doc.akka.io/docs/akka/2.5/index.html?language=scala)
+[Scala API](https://doc.akka.io/api/akka/2.5)
 
 Artifacts are available from Maven Central.
 

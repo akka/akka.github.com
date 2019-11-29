@@ -32,6 +32,6 @@ defaults:
     # versions.json will be updated as long as the changes here are patch versions, for minor and major it needs to
     # be updated manually
     current_akka_version: 2.6.0
-    current_akka_http_version: 10.1.10
+    current_akka_http_version: 10.1.11
     previous_akka_version: 2.5.26
     current_java_scala_version: 2.12 # used for deps for Java

@@ -12,5 +12,6 @@ youtubeId: rIFqJxMJ1MM
 
 A short video where we walk through the basics of the actor model writing an actor in Java with the new Actor APIs Akka 2.6
 
-For more getting started materials check out the [getting started section of the Akka documentation](https://doc.akka.io/docs/akka/current/typed/guide/introduction.html)
+For more getting started materials check out the [quickstart project](https://akka.io/try-akka/) and the 
+[getting started section of the Akka documentation](https://doc.akka.io/docs/akka/current/typed/guide/introduction.html).
 

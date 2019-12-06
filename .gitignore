@@ -17,5 +17,6 @@ _site
 # ruby/jekyll
 Gemfile.lock
 .jekyll-metadata
+.jekyll-cache
 vendor
 .bundle

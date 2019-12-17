@@ -4,6 +4,7 @@ title: News Archive
 redirect_from:
  - "/news/all-news.html"
  - "/releases/"
+ - "/news/"
 group: navigation
 ---
 

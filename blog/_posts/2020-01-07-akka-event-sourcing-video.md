@@ -13,6 +13,6 @@ youtubeId: xWuOGqmR7ow
 An eight minute video demonstrating how to use Event Sourcing in Akka 2.6.
 
 Sample code from the [Akka CQRS example project](https://doc.akka.io/docs/akka/current/project/examples.html#cqrs) (Java or Scala).
-Including how to integrate with [Cluster Sharding](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html) and [Akka HTTP](https://doc.akka.io/docs/akka-http/current/index.html).
+Including how to integrate with [Cluster Sharding](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html) and [Akka HTTP](https://doc.akka.io/docs/akka-http/current/).
      
 For more information see the [Akka Event Sourcing documentation](https://doc.akka.io/docs/akka/current/typed/persistence.html).

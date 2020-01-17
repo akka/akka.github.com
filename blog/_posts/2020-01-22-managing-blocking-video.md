@@ -5,7 +5,7 @@ author: Arnout Engelen
 short: A short video about how to manage blocking in Actors
 category: news
 tags: [videos]
-youtubeId: ????
+youtubeId: xBVKJUzYD_Q
 ---
 
 {% include youtubePlayer.html id=page.youtubeId %}

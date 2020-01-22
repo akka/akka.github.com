@@ -16,3 +16,6 @@ you can use custom dispatchers to manage blocking when you cannot avoid it.
 The slides and sample code are available [on GitHub](https://github.com/raboof/akka-blocking-dispatcher).
 
 For more information see the [Akka documentation](https://doc.akka.io/docs/akka/current/typed/dispatchers.html#blocking-needs-careful-management)
+
+Read about [Akka Enhancements](https://doc.akka.io/docs/akka-enhancements) and learn more from other [Lightbend Videos and Webinars](https://www.lightbend.com/videos-and-webinars).
+

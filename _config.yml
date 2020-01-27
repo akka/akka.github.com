@@ -31,7 +31,7 @@ defaults:
     # note that changing this requires a jekyll restart to be picked up if serving locally
     # versions.json will be updated as long as the changes here are patch versions, for minor and major it needs to
     # be updated manually
-    current_akka_version: 2.6.1
+    current_akka_version: 2.6.2
     current_akka_http_version: 10.1.11
     previous_akka_version: 2.5.27
     current_java_scala_version: 2.12 # used for deps for Java

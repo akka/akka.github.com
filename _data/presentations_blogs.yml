@@ -1,3 +1,14 @@
+- title: How Alpakka Uses Flow Control Optimizations In Apache Kafka 2.4
+  url: https://www.lightbend.com/blog/alpakka-kafka-flow-control-optimizations
+  type: blog
+  tags:
+    - Alpakka
+    - Kafka
+    - Streams
+  author: by Sean Glover
+  content: A deep dive into how Lightbend contributed flow control optimizations in Apache Kafka 2.4 improves performance in Alpakka Kafka 2.0.0.
+  date: 2020-01-26
+
 - title: On Embracing Error in Distributed Software Systems
   url: https://blog.colinbreck.com/on-embracing-error-in-distributed-software-systems/
   type: blog

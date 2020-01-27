@@ -12,7 +12,7 @@ Dear hakkers,
 We are happy to announce the general availability of Alpakka Kafka 2.0.0!
 
 Alpakka Kafka 2.0.0 uses the **Apache Kafka client 2.4.0** which contains improvements to the flow-control management that are very important to Alpakka Kafka.
-A separate blog post is coming up to deep-dive and explain those changes - stay tuned.
+You can learn more about these improvements in the Lightbend blog post [How Alpakka Uses Flow Control Optimizations In Apache Kafka 2.4](https://www.lightbend.com/blog/alpakka-kafka-flow-control-optimizations).
 
 The new `Producer.committableSink` behave as a combination of `Producer.flexiFlow` and `Committer.sink`, but has a special-purpose implementation which shows better performance in our benchmarks.
 

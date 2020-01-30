@@ -49,18 +49,51 @@ body .optanon-alert-box-wrapper .optanon-alert-box-bottom-padding {
 			display: inline-block;
 			padding: .25rem .5rem;
 			text-decoration: none;
-			margin: .25rem 1rem;
+			margin: .25rem .5rem;
 			cursor: pointer;
 			&:hover {
 				background: rgba(white, .6);
 				color: #6cc04a;
 			}
 		}
+		> a.link {
+			border: none;
+			color: white;
+			display: inline;
+			padding: 0;
+			text-decoration: underline;
+			margin: 0;
+			cursor: pointer;
+			&:hover {
+				background: none;
+				color: white;
+			}
+		}
 	}
 	small {
 		color: white !important;
-		font-size: .875rem !important;
+		font-size: .75rem !important;
+		margin-top: .5rem;
+		display: inline-block;
+		opacity: .9;
+		> a.link {
+			border: none;
+			color: white;
+			display: inline;
+			padding: 0;
+			text-decoration: underline;
+			font-size: .75rem !important;
+			margin: 0;
+			cursor: pointer;
+			&:hover {
+				background: none;
+				color: #366025;
+			}
+		}
 	}
+}
+.cookie-warning.video-warning{
+	text-align: left;
 }
 .flex-video {
 	background-color: lb-off-white-dkr;

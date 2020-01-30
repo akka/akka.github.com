@@ -1,5 +1,7 @@
 $(function () {
 
+
+
     // algolia search box hook
 
     // initalizes doc search if there is a search box
@@ -94,3 +96,17 @@ $(function () {
     })
 
 });
+
+//oneTrust callback, once code has loaded and init
+function OptanonWrapper() {
+    //find all YouTube Widgets on the page
+    $( ".yt-widget" ).each(function( index ) {
+        var widget = $(this);
+        //remove the prepended yt- from the ID. The ID is prepended with yt- so that we don't break old html4 clients that can't have IDs that begin with numbers.
+        var ytID = widget.attr("id").slice(3);
+        //swap out link with allow cookies dialogue
+        widget.html('<div class="cookie-warning video-warning"><p>To watch this video in page.<a class="optanon-allow-all">Allow Cookies</a><br><small>Alternatively you can <a class="link" href="https://www.youtube.com/watch?v='+ytID+'" target="_blank">watch on YouTube</a>.</small></p></div>');
+        //load youtube player if cookies are approved
+        Optanon.InsertHtml('<div class="tubeytube"><iframe src="//www.youtube.com/embed/'+ytID+'?rel=0&modestbranding=0" frameborder="0" allow="fullscreen"></iframe></div>', 'yt-'+ytID, null, {deleteSelectorContent: true}, 4);
+    }); 
+};

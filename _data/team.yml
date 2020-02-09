@@ -24,10 +24,21 @@
   twitter: chbatey
   desc: Christopher is a passionate software engineer. His favourite areas of computing are programming languages, distributed systems, databases and the JVM. Before joining the Akka team he built large scale systems in various industries including finance and media.
 
+- name: Enno Runne
+  avatar: https://en.gravatar.com/avatar/aa7dc84848a809f47e21f4195ba1a8b2?s=160
+  title: Akka Tech Lead
+  twitter: ennru
+  desc: Enno got introduced to Java in 1996 by Martin Odersky at Karlsruhe Institute of Technology. After his studies and Master's thesis on implementing Java Generics he moved to Sweden for love, and started his IT career building the Swedish national prescription registry and diverse other projects. Enno founded the Scala Stockholm user group in 2010 and is involved in the Jfokus developers' conference.
+
 - name: Helena Edelson
   avatar: https://s.gravatar.com/avatar/7cf318de31808cb4a36256cd984d0b5f?s=160
   twitter: helenaedelson
   desc: Helena did her academic work in scientific biological research, on how to leverage and engineer biological systems to build robust efficient systems. She has engineered problems of distributed systems, distributed data, massive scale, analytics and ML for platform infrastructure and cloud engineering. She is a Keynote and session speaker at conferences. Her current research is in complex adaptive systems, network theory, consensus and convergence.
+
+- name: Sean Glover
+  avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
+  twitter: seg1o
+  desc: Sean has been working as a professional software engineer since 2006. He has held a variety of product development and consulting roles at startups in spaces that include credit card fraud, business analytics, and customer experience management. More recently he has specialized in writing software that enables people to build high throughput & low latency data streaming platforms. Sean has organized the Scala Toronto meetup since 2013. <a href="http://seanglover.com">seanglover.com</a>
 
 - name: Ignasi Marimon-Clos
   avatar: https://s.gravatar.com/avatar/73fd4336663abc30844ea3a895b4a6fb?s=160
@@ -39,13 +50,3 @@
   twitter: renatocaval
   desc: Renato moved to Europe in 1999 to follow philosophy studies in Paris. Short thereafter, he started a career as an autodidact developer to pay for his croissants at the Paris' boulevards. He later moved to Belgium to follow his love. He has a special interest for Event Sourcing/CQRS, DDD and Microservices Architectures. Renato founded the Belgian Scala User Group in 2011 and is a frequent conference speaker.
 
-- name: Enno Runne
-  avatar: https://en.gravatar.com/avatar/aa7dc84848a809f47e21f4195ba1a8b2?s=160
-  title: Akka Tech Lead
-  twitter: ennru
-  desc: Enno got introduced to Java in 1996 by Martin Odersky at Karlsruhe Institute of Technology. After his studies and Master's thesis on implementing Java Generics he moved to Sweden for love, and started his IT career building the Swedish national prescription registry and diverse other projects. Enno founded the Scala Stockholm user group in 2010 and is involved in the Jfokus developers' conference.
-
-- name: Sean Glover
-  avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
-  twitter: seg1o
-  desc: Sean has been working as a professional software engineer since 2006. He has held a variety of product development and consulting roles at startups in spaces that include credit card fraud, business analytics, and customer experience management. More recently he has specialized in writing software that enables people to build high throughput & low latency data streaming platforms. Sean has organized the Scala Toronto meetup since 2013. <a href="http://seanglover.com">seanglover.com</a>

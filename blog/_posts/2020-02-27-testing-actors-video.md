@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to Test Actors With JUnit in Akka 2.6
+title: How to Test Actors with JUnit in Akka 2.6
 author: Johan Andrén
 short: A short introduction to the testkits in Akka 2.6
 category: news

@@ -7,5 +7,6 @@ script: bundle exec jekyll build && eval "$(ssh-agent -s)" && echo $SCP_SECRET |
 branches:
   only:
   - master
+  - travis
 
 cache: bundler

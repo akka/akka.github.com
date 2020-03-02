@@ -18,6 +18,8 @@ sass:
 exclude:
 - README
 - vendor
+- Gemfile
+- Gemfile.lock
 
 # format for blog permalinks (no .html at the end)
 # For more see: http://jekyllrb.com/docs/permalinks/

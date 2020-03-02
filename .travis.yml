@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 2.6.3
 
-script: bundle exec jekyll build && eval "$(ssh-agent -s)" && echo $SCP_SECRET | base64 -d > /tmp/id_rsa && chmod 600 /tmp/id_rsa && scp -i /tmp/id_rsa -o UserKnownHostsFile=.travis/known_hosts -r _site akkarepo@gustav.akka.io:/tmp/_site
+script: bundle exec jekyll build && eval "$(ssh-agent -s)" && echo $SCP_SECRET | base64 -d > /tmp/id_rsa && chmod 600 /tmp/id_rsa && scp -i /tmp/id_rsa -o UserKnownHostsFile=.travis/known_hosts -r _site akkarepo@gustav.akka.io:akka.io
 
 branches:
   only:

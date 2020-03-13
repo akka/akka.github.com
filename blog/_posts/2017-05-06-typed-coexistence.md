@@ -6,6 +6,7 @@ author: Patrik Nordwall
 redirect_from: /typed/2017/05/06/typed-coexistence
 series_title: Introducing Akka Typed
 series_tag: typed
+category: article
 tags: [actor,typed]
 ---
 {% include JB/setup %}

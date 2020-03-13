@@ -5,6 +5,7 @@ description: "Supervision works differently in Akka Typed compared to the origin
 author: "Dr. Roland Kuhn"
 series_title: Programming Reactive Systems
 series_tag: course
+category: article
 tags: [actor,typed,course]
 ---
 {% include JB/setup %}

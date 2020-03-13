@@ -6,6 +6,7 @@ author: Konrad Malawski & Johan Andrén
 redirect_from: /integrations/2016/08/25/simple-sink-source-with-graphstage
 series_title: Integration
 series_tag: integration
+category: article
 tags: [streams,integration]
 ---
 {% include JB/setup %}

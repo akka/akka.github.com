@@ -2,6 +2,7 @@
 layout: series_post
 title: "Akka Typed: New Persistence API"
 description: ""
+category: article
 author: Patrik Nordwall
 series_title: Akka Typed Cluster and Persistence
 series_tag: typed-cluster

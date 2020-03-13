@@ -6,6 +6,7 @@ author: Endre Varga
 redirect_from: /integrations/2016/09/23/custom-flows-parsing-xml-part-2
 series_title: Integration
 series_tag: integration
+category: article
 tags: [streams,integration]
 ---
 {% include JB/setup %}

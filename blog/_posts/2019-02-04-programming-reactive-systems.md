@@ -5,6 +5,7 @@ description: "Akka team and Scala Center create new online course on designing a
 author: ""
 series_title: Programming Reactive Systems
 series_tag: course
+category: news
 tags: [actor,typed,streams,course]
 ---
 {% include JB/setup %}

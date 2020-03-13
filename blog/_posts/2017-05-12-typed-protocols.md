@@ -6,6 +6,7 @@ author: Roland Kuhn & Patrik Nordwall
 redirect_from: /typed/2017/05/12/typed-protocols
 series_title: Introducing Akka Typed
 series_tag: typed
+category: article
 tags: [actor,typed]
 ---
 {% include JB/setup %}

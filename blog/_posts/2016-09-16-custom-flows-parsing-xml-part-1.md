@@ -4,6 +4,7 @@ title: "Custom Flows: Parsing XML (part I)"
 description: ""
 author: Endre Varga
 redirect_from: /integrations/2016/09/16/custom-flows-parsing-xml-part-1
+category: article
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]

@@ -6,6 +6,7 @@ author: Johan Andrén
 redirect_from: /integrations/2016/08/29/connecting-existing-apis
 series_title: Integration
 series_tag: integration
+category: article
 tags: [streams,integration]
 ---
 {% include JB/setup %}

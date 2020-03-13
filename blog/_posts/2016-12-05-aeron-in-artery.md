@@ -4,6 +4,7 @@ title: "Aeron in Artery"
 description: ""
 author: Patrik Nordwall
 redirect_from: /artery/2016/12/05/aeron-in-artery
+category: article
 series_title: Artery
 series_tag: artery
 tags: [artery]

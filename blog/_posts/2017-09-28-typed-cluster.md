@@ -5,6 +5,7 @@ description: ""
 author: Patrik Nordwall
 series_title: Akka Typed Cluster and Persistence
 series_tag: typed-cluster
+category: article
 tags: [actor,typed,typed-cluster]
 ---
 {% include JB/setup %}

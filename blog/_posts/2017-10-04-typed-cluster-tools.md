@@ -3,6 +3,7 @@ layout: series_post
 title: "Akka Typed: New Cluster Tools API"
 description: ""
 author: Patrik Nordwall
+category: article
 series_title: Akka Typed Cluster and Persistence
 series_tag: typed-cluster
 tags: [actor,typed,typed-cluster]

@@ -2,6 +2,7 @@
 layout: post
 title: Akka family build infrastructure
 author: Martynas Mickevičius
+category: article
 short: An overview of sbt plugins and techniques used in Akka family build configuration
 ---
 

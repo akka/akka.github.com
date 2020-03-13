@@ -4,6 +4,7 @@ title: "Akka Streams Kafka 0.11"
 description: ""
 author: Adam Warski & Krzysiek Ciesielski
 redirect_from: /integrations/2016/09/10/akka-stream-kafka
+category: article
 series_title: Integration
 series_tag: integration
 tags: [streams,integration]

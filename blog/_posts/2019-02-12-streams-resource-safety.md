@@ -5,6 +5,7 @@ description: "While stream processing has become ubiquitous in the vocabulary of
 author: ""
 series_title: Programming Reactive Systems
 series_tag: course
+category: article
 tags: [actor,streams,course]
 ---
 {% include JB/setup %}

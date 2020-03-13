@@ -6,6 +6,7 @@ author: Martynas Mickevičius
 redirect_from: /integrations/2016/09/05/flow-control-at-the-akka-stream-boundary
 series_title: Integration
 series_tag: integration
+category: article
 tags: [streams,connectors,integration]
 ---
 {% include JB/setup %}

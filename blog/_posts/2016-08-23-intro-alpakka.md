@@ -6,6 +6,7 @@ author: Patrik Nordwall
 redirect_from: /integrations/2016/08/23/intro-alpakka
 series_title: Integration
 series_tag: integration
+category: article
 tags: [streams,integration]
 ---
 {% include JB/setup %}

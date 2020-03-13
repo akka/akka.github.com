@@ -6,6 +6,7 @@ author: Patrik Nordwall
 redirect_from: /artery/2016/12/02/streams-in-artery
 series_title: Artery
 series_tag: artery
+category: article
 tags: [artery]
 ---
 {% include JB/setup %}

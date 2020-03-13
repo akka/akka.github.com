@@ -5,6 +5,7 @@ description: ""
 author: Patrik Nordwall
 redirect_from: /typed/2017/05/08/typed-mutable-vs-immutable
 series_title: Introducing Akka Typed
+category: article
 series_tag: typed
 tags: [actor,typed]
 ---

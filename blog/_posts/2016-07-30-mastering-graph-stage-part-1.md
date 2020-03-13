@@ -5,6 +5,7 @@ description: ""
 author: Endre Varga
 redirect_from: /streams/2016/07/30/mastering-graph-stage-part-1
 tags: [streams,internals,intro]
+category: article
 ---
 {% include JB/setup %}
 

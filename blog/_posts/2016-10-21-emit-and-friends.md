@@ -4,6 +4,7 @@ title: "Spotlight: GraphStage emit and friends"
 description: ""
 author: Patrik Nordwall
 redirect_from: /streams/2016/10/21/emit-and-friends
+category: article
 tags: [streams,spotlight]
 ---
 {% include JB/setup %}

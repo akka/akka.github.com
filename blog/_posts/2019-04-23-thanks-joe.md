@@ -2,6 +2,7 @@
 layout: post
 title: Thanks, Joe
 author: Jonas Bonér
+category: article
 short: Thanks, Joe
 ---
 

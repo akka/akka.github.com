@@ -15,3 +15,9 @@ demonstrate how to co-locate the consumption of Kafka partitions with the Akka C
 Shard Allocation strategy in Akka 2.6.
 
 The demo uses [this Akka sample](https://github.com/akka/akka-samples/tree/2.6/akka-sample-kafka-to-sharding-scala) and  contains instructions for how to run everything locally.
+
+To learn more see the documentation on the [External Shard Allocation
+Strategy](https://doc.akka.io/docs/akka/current/typed/cluster-sharding.html#external-shard-allocation) and the [Alpakka
+extension for cluster sharding](https://doc.akka.io/docs/alpakka-kafka/snapshot/cluster-sharding.html).
+
+Also, read about [Akka Enhancements](https://doc.akka.io/docs/akka-enhancements) and learn more from other [Lightbend Videos and Webinars](https://www.lightbend.com/videos-and-webinars).

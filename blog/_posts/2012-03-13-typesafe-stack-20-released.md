@@ -25,7 +25,7 @@ For more info read the "introductory article" or the [online documentation](http
 
 ## Play 2.0 Web Framework
 
-The Typesafe Stack, featuring Akka 2.0, now also contains the amazing [Play! 2.0 Web Framework](https://www.playframework.org/) (also released today). 
+The Typesafe Stack, featuring Akka 2.0, now also contains the amazing [Play! 2.0 Web Framework](https://www.playframework.com/) (also released today). 
 
 Play 2.0 is using Akka 2.0 for all its event-handling and asynchronous processing making Play 2.0 very scalable and fault-tolerant. Play is the best alternative today for building modern real-time web applications.
 

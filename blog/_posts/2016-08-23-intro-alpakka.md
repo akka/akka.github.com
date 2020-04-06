@@ -24,7 +24,7 @@ The following are examples of things that are readily available for building you
 
 * [Akka Http](https://doc.akka.io/docs/akka/2.4/java/http/index.html) - HTTP client and server components, including support for WebSockets.
 * [Akka Stream Kafka](https://github.com/akka/reactive-kafka) - Connector to Kafka.
-* [Reactive Streams](http://reactive-streams.org/) - Interoperate seamlessly with other Reactive Streams implementations. For example, you can use Akka Streams together with [MongoDB Reactive Streams Java Driver](https://mongodb.github.io/mongo-java-driver-reactivestreams/) for integrating with MongoDB.
+* [Reactive Streams](https://www.reactive-streams.org/) - Interoperate seamlessly with other Reactive Streams implementations. For example, you can use Akka Streams together with [MongoDB Reactive Streams Java Driver](https://mongodb.github.io/mongo-java-driver-reactivestreams/) for integrating with MongoDB.
 * [Streaming TCP](https://doc.akka.io/docs/akka/2.4/java/stream/stream-io.html#Streaming_TCP) - Low level TCP based protocols.
 * [Streaming File IO](https://doc.akka.io/docs/akka/2.4/java/stream/stream-io.html#Streaming_File_IO) - Reading and writing files.
 * [mapAsync](https://doc.akka.io/docs/akka/2.4/java/stream/stream-integrations.html#integrating-with-external-services) - Integration with anything that has an asynchronous API based on CompletionStage or futures.

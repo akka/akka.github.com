@@ -11,7 +11,7 @@ tags: [streams,connectors,integration]
 ---
 {% include JB/setup %}
 
-When working with Akka Streams, one can be assured that all of the data is going to be processed in bounded memory. The reason Akka Streams can guarantee this, is that it implements the [Reactive Streams](http://www.reactive-streams.org/) protocol which describes how flow control is to be managed using demand signaling. Having a single protocol for flow control enables different libraries, that follow the same protocol, to interconnect seamlessly. However, when writing Akka Streams connectors for libraries that do not implement Reactive Streams, one needs to look at the library API and decide what is the best way to control the flow at the boundary between Akka Streams and the library.
+When working with Akka Streams, one can be assured that all of the data is going to be processed in bounded memory. The reason Akka Streams can guarantee this, is that it implements the [Reactive Streams](https://www.reactive-streams.org/) protocol which describes how flow control is to be managed using demand signaling. Having a single protocol for flow control enables different libraries, that follow the same protocol, to interconnect seamlessly. However, when writing Akka Streams connectors for libraries that do not implement Reactive Streams, one needs to look at the library API and decide what is the best way to control the flow at the boundary between Akka Streams and the library.
 
 Below are three strategies of doing that. Choosing one over another relies on what APIs the library provides and what guarantees the API of the library hold.
 

@@ -22,7 +22,7 @@ The most notable fixes in this release include:
 - Empty.head in Websockets [#19417](https://github.com/akka/akka/issues/19417)
 - scalac bug when using members of MediaTypes in a map [#19418](https://github.com/akka/akka/issues/19418)
 
-The reference documentation for the 2.0.2 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.2/scala.html).
+The reference documentation for the 2.0.2 release can be found here for [Java](https://doc.akka.io/docs/akka/current/stream/?language=java) and [Scala](https://doc.akka.io/docs/akka/current/stream/?language=scala).
 
 The full list of changes since the last milestone is available under the [stream-http-2.0.2](https://github.com/akka/akka/issues?q=is%3Aissue+milestone%3Astream-http-2.0.2+is%3Aclosed) milestone on github for your reference.
 

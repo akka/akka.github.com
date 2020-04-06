@@ -30,7 +30,7 @@ Fixes in this release include:
 
 The full list of changes since the last milestone is available under the [stream-http-2.0.4](https://github.com/akka/akka/issues?q=milestone%3Astream-http-2.0.4+is%3Aclosed) milestone on github for your reference.
 
-The reference documentation for the 2.0.4 release can be found here for [Java](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/java.html) and [Scala](https://doc.akka.io/docs/akka-stream-and-http-experimental/2.0.4/scala.html).
+The reference documentation for the 2.0.4 release can be found here for [Java](https://doc.akka.io/docs/akka/current/stream/?language=java) and [Scala](https://doc.akka.io/docs/akka/current/stream/?language=scala).
 
 #### Credits ####
 

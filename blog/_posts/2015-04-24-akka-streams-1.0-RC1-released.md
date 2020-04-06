@@ -50,8 +50,8 @@ The complete list of closed tickets can be found in the [streams-1.0-RC1](https:
 
 The activator templates have also been updated:
 
-- [Akka Streams with Java8!](http://typesafe.com/activator/template/akka-stream-java8)
-- [Akka Streams with Scala!](http://typesafe.com/activator/template/akka-stream-scala)
+- [Akka Streams with Java8!](https://www.lightbend.com/activator/template/akka-stream-java8)
+- [Akka Streams with Scala!](https://www.lightbend.com/activator/template/akka-stream-scala)
 
 We’d like to thank all of you for testing and for providing feedback on our progress.
 

@@ -7,6 +7,17 @@
     {% endif %}
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width" />
+
+    <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="og:description" content="{{ page.short }}" >
+    <meta name="og:image" content="https://akka.io/resources/images/social.png" >
+    <meta name="og:url" content="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}{{ page.url }}{% endif %}">
+
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{{ page.short }}" >
+    <meta name="twitter:image" content="https://akka.io/resources/images/social.png" >
+    <meta name="twitter:card" content="summary_large_image" >
+
     {% if page.canonical_url %}
     <link rel="canonical" href="{{ page.canonical_url }}">
     {% endif %}

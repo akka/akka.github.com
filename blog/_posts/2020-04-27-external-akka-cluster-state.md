@@ -15,4 +15,4 @@ This four part series of articles describes how to build a stateful Microservice
 * deploy in Docker 
 * deploy in Kubernetes
 
-Read the blog series at: [https://www.lightbend.com/blog/how-to-distribute-application-state-with-akka-cluster-part-1-getting-started)
+Read the blog series at: [https://www.lightbend.com/blog/how-to-distribute-application-state-with-akka-cluster-part-1-getting-started](https://www.lightbend.com/blog/how-to-distribute-application-state-with-akka-cluster-part-1-getting-started)

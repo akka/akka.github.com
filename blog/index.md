@@ -1,7 +1,6 @@
 ---
 layout: news-main
 title: News & Articles
-redirect_from: "/news/"
 ---
 
 <div class="ninecol">

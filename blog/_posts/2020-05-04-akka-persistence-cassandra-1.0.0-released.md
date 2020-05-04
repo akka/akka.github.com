@@ -23,9 +23,9 @@ This marks the plugin as fully supported. Highlights of the release:
 * A more efficient all persistence ids query.
 * Support for versions 2.6+ of Akka. Akka 2.5 has been dropped to take advantage of new Akka features in Akka 2.6.
 
-If upgrading from a previous version you'll need to follow the steps in the migration guide: https://doc.akka.io/docs/akka-persistence-cassandra/current/migrations.html
+If upgrading from a previous version you'll need to follow the steps in the [migration guide](https://doc.akka.io/docs/akka-persistence-cassandra/current/migrations.html)
 
-Docs: https://doc.akka.io/docs/akka-persistence-cassandra/current/
+You can find the documentation [here](https://doc.akka.io/docs/akka-persistence-cassandra/current/).
 
 
 ## Akka by Lightbend
@@ -33,3 +33,5 @@ Docs: https://doc.akka.io/docs/akka-persistence-cassandra/current/
 The Akka core team is employed by [Lightbend](https://www.lightbend.com/). If you’re looking [to take your Akka systems to the next level](https://www.lightbend.com/lightbend-platform-subscription), let’s [set up a time](https://lightbend.com/contact) to discuss our enterprise-grade expert support, self-paced education courses, and technology enhancements that help you manage, monitor and secure your Akka systems - from development to production.
 
 Happy hakking
+
+- The Akka Team

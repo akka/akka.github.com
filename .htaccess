@@ -11,9 +11,15 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$      $1.html [END]
 
-Redirect 301 /downloads             https://akka.io/try-akka/
-Redirect 301 /news/all-news.html    https://akka.io/blog/news-archive.html
-Redirect 301 /releases/             https://akka.io/blog/tags.html#releases-ref
-Redirect 301 /news                  https://akka.io/blog/
-Redirect 301 /blog/news             https://akka.io/blog/
-Redirect 301 /presentations-blogs   https://akka.io/blog/external-archive.html
+#
+# This file version controlled at
+# https://github.com/akka/akka.io/blob/master/.htaccess
+#
+
+Redirect 301 /downloads                      https://akka.io/try-akka
+Redirect 301 /news/all-news.html             https://akka.io/blog/news-archive.html
+Redirect 301 /releases                       https://akka.io/blog/tags.html#releases-ref
+Redirect 301 /presentations-blogs            https://akka.io/blog/external-archive.html
+
+RedirectMatch 301 ^/news/?$                  https://akka.io/blog/
+RedirectMatch 301 ^/blog/news/?$             https://akka.io/blog/

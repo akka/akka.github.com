@@ -2,6 +2,6 @@ language: ruby
 rvm:
   - 2.6.3
 
-script: bundle exec jekyll build && if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then if [ "$TRAVIS_BRANCH" = "master" ]; then eval "$(ssh-agent -s)" && echo $SCP_SECRET | base64 -d > /tmp/id_rsa && chmod 600 /tmp/id_rsa && scp -i /tmp/id_rsa -o UserKnownHostsFile=.travis/known_hosts -r _site/* akkarepo@gustav.akka.io:akka.io; fi; fi
+script: bundle exec jekyll build && if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then if [ "$TRAVIS_BRANCH" = "master" ]; then eval "$(ssh-agent -s)" && echo $SCP_SECRET | base64 -d > /tmp/id_rsa && chmod 600 /tmp/id_rsa && scp -i /tmp/id_rsa -o UserKnownHostsFile=.travis/known_hosts -r _site/* _site/.htaccess akkarepo@gustav.akka.io:akka.io; fi; fi
 
 cache: bundler

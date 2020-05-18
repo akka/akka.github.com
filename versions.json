@@ -7,68 +7,55 @@ layout: null
     "1.1": {
       "latest": "1.1.3",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "1.2": {
       "latest": "1.2",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "1.3": {
       "latest": "1.3.1",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.0": {
       "latest": "2.0.5",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.1": {
       "latest": "2.1.4",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.2": {
       "latest": "2.2.5",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.3": {
       "latest": "2.3.16",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.4": {
-      "latest": "2.4.20",
+      "latest": "2.4",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.5-": {
       "latest": "{{ page.previous_akka_version }}",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
-    "2.5.": {
+    "2.5": {
       "latest": "{{ page.previous_akka_version }}",
       "outdated": true,
-      "instead": "2.5."
+      "instead": "2.6"
     },
     "2.6": {
       "latest": "{{ page.current_akka_version }}"
-    },
-
-    "rp-15v01": {
-      "rp": true,
-      "latest": "rp-15v01p05"
-    },
-    "rp-15v09": {
-      "rp": true,
-      "latest": "rp-15v09p03"
-    },
-    "rp-16s01": {
-      "rp": true,
-      "latest": "rp-16s01p05"
     }
   },
 
@@ -80,29 +67,6 @@ layout: null
     },
     "10.1": {
       "latest": "{{ page.current_akka_http_version }}"
-    }
-  },
-
-  "akka-stream-and-http-experimental": {
-    "0.": {
-      "latest": "1.0",
-      "outdated": true,
-      "instead": ["akka", "2.5."]
-    },
-    "1.": {
-      "latest": "1.0",
-      "outdated": true,
-      "instead": ["akka", "2.5."]
-    },
-    "2.": {
-      "latest": "2.0.4",
-      "outdated": true,
-      "instead": ["akka", "2.5."]
-    },
-    "current": {
-      "latest": "current",
-      "outdated": true,
-      "instead": ["akka", "2.5."]
     }
   }
 }

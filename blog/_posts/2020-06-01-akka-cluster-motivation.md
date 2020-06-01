@@ -2,7 +2,7 @@
 layout: post
 title: "Stateful or Stateless Applications: To Akka Cluster, or not"
 author: Christopher Batey
-short: A short video discussing the pros and cons of stateless applications verses using Akka Cluster 
+short: A short video discussing the pros and cons of stateless applications or those using Akka Cluster 
 category: news
 tags: [videos]
 youtubeId: CiVsKjZV-Ys

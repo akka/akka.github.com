@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Stateful vs Stateless applications: to Akka Cluster or not"
+title: "Stateful or Stateless Applications: To Akka Cluster, or not"
 author: Christopher Batey
 short: A short video discussing the pros and cons of stateless applications verses using Akka Cluster 
 category: news
@@ -10,7 +10,7 @@ youtubeId: CiVsKjZV-Ys
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-This short video highlights the pros and cons of building stateful applications with Akka Cluster. Akka Cluster is a tool for building stateful applications that gives developers access to powerful features such as Cluster Sharding, Distributed Data, and Pubsub without the need to bring in external dependencies such as distributed caches.
+This short video highlights the differences between building stateful and stateless applications, and how Akka Cluster can help you scale and protect application state across your distributed systems.
 
 To learn more about Akka Cluster see the [documentation](https://doc.akka.io/docs/akka/current/typed/cluster.html).
 

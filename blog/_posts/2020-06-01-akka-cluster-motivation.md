@@ -6,6 +6,7 @@ short: A short video discussing the pros and cons of stateless applications or t
 category: news
 tags: [videos]
 youtubeId: CiVsKjZV-Ys
+image: blog/assets/stateful-or-stateless.png
 ---
 
 {% include youtubePlayer.html id=page.youtubeId %}

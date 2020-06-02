@@ -10,12 +10,21 @@
 
     <meta name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="og:description" content="{{ page.short }}" >
+    {% if page.image %}
+    <meta name="og:image" content="https://akka.io/{{ page.image }}" >
+    {% else %}
     <meta name="og:image" content="https://akka.io/resources/images/social.png" >
+    {% endif %}
     <meta name="og:url" content="{% if page.canonical_url %}{{ page.canonical_url }}{% else %}https://akka.io{{ page.url }}{% endif %}">
 
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{{ page.short }}" >
+
+    {% if page.image %}
+    <meta name="twitter:image" content="https://akka.io/{{ page.image }}" >
+    {% else %}
     <meta name="twitter:image" content="https://akka.io/resources/images/social.png" >
+    {% endif %}
     <meta name="twitter:card" content="summary_large_image" >
 
     {% if page.canonical_url %}

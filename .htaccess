@@ -1,0 +1,34 @@
+#
+# This file version controlled at
+# https://github.com/akka/akka.io/blob/master/.htaccess
+#
+
+RewriteEngine On
+
+# This makes:
+# https://akka.io/blog/news/2020/02/27/testing-actors-video.html
+# Also available via:
+# https://akka.io/blog/news/2020/02/27/testing-actors-video
+# Which is questionable from a SEO/duplicate-content perspective
+# but it's what GitHub Pages did so let's be faithful to that
+# for now.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$      $1.html [END]
+
+# This the version.json generated here available to doc.akka.io.
+# https://github.com/akka/akka/issues/29080
+<If "%{REQUEST_URI} =~ m#^/versions\.json$#">
+  Header set Access-Control-Allow-Origin "https://doc.akka.io"
+  Header set Access-Control-Allow-Methods "GET"
+  Header set Access-Control-Allow-Headers "Content-Type"
+</If>
+
+
+Redirect 301 /downloads                      https://akka.io/try-akka
+Redirect 301 /news/all-news.html             https://akka.io/blog/news-archive.html
+Redirect 301 /presentations-blogs            https://akka.io/blog/external-archive.html
+
+RedirectMatch 301 ^/releases/?.*             https://akka.io/blog/tags.html#releases-ref
+RedirectMatch 301 ^/news/?$                  https://akka.io/blog/
+RedirectMatch 301 ^/blog/news/?$             https://akka.io/blog/

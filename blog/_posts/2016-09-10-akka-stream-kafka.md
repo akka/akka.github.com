@@ -12,7 +12,7 @@ tags: [streams,integration]
 {% include JB/setup %}
 
 
-[Apache Kafka](http://kafka.apache.org) is the leading distributed messaging system, and [Reactive Streams](http://www.reactive-streams.org) is an emerging standard for asynchronous stream processing. It seems natural to combine these two; that’s why [SoftwareMill](https://softwaremill.com) started the [reactive-kafka](https://github.com/akka/reactive-kafka) project back in December 2014 and maintained it since.
+[Apache Kafka](http://kafka.apache.org) is the leading distributed messaging system, and [Reactive Streams](https://www.reactive-streams.org) is an emerging standard for asynchronous stream processing. It seems natural to combine these two; that’s why [SoftwareMill](https://softwaremill.com) started the [reactive-kafka](https://github.com/akka/reactive-kafka) project back in December 2014 and maintained it since.
 
 Recently we’ve combined efforts with the Akka team, and now the project can leverage the expert input from the [Lightbend](https://www.lightbend.com) Akka maintainers themselves (Patrik Nordwall and Endre Varga), community ([Alexey Romanchuk](https://github.com/13h3r)) and the original reactive-kafka authors (Krzysiek Ciesielski from [SoftwareMill](https://softwaremill.com)).
 
@@ -41,7 +41,7 @@ result.onFailure {
 }
 ```
 
-More examples in Java and Scala, with explanations, can be found in the [documentation](https://doc.akka.io/docs/akka-stream-kafka/current/home.html).
+More examples in Java and Scala, with explanations, can be found in the [documentation](https://doc.akka.io/docs/alpakka-kafka/current/home.html).
 
 Secondly, there are significant performance improvements. We’ve done some benchmarks, and while there is still some overhead from the reactive-kafka wrapper (though keep in mind, that you also get something in return: e.g. all of the benefits coming from a nice API with asynchronous backpressure!), the overall numbers look very good and are getting better.
 

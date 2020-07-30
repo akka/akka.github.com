@@ -22,7 +22,7 @@ Highlights of the new release are:
 
 Some of these changes have been developed or initiated by the community. A big thank you for everyone involved!
 
-For detailed changes and credits take a look at the [release notes](https://doc.akka.io/docs/akka-stream-kafka/current/release-notes/1.0-RC2.html) in the Alpakka Kafka connector documentation.
+For detailed changes and credits take a look at the [release notes](https://doc.akka.io/docs/alpakka-kafka/current/release-notes/1.0-RC2.html) in the Alpakka Kafka connector documentation.
 
 Happy hakking!
 

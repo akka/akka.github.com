@@ -26,7 +26,7 @@ to Jonas, to all committers, to all users and to the excellent Scala and Java ec
 * 98683 insertions(+)
 * 57415 deletions(-)
 
-Also including over 300 pages of reference documentation, and tons of ScalaDoc, available at [https://doc.akka.io/docs/akka/2.0/](https://doc.akka.io/docs/akka/2.0/).
+Also including over 300 pages of reference documentation, and tons of ScalaDoc, available at [https://doc.akka.io/docs/akka/2.0.5/](https://doc.akka.io/docs/akka/2.0.5/).
 
 Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 
@@ -43,7 +43,7 @@ Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 * Extensions enable you to augment `ActorSystem`s
 * Scale up and out through configuration
 * API unification and simplification
-* Excellent performance, up to 20 million msg/second on a single machine, see the [blog article](http://letitcrash.com/post/17607272336/scalability-of-fork-join-pool)
+* Excellent performance, up to 20 million msg/second on a single machine, see the [blog article](https://letitcrash.com/post/17607272336/scalability-of-fork-join-pool)
 * Slimmer footprint gives you around 2.7 million Actors per GB of memory
 
 ### Dispatchers
@@ -65,7 +65,7 @@ Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 * Built as an Akka Extension
 
 ### Futures & Promises
-*  Harmonized API with [SIP-14](http://docs.scala-lang.org/sips/pending/futures-promises.html) (big props to the EPFL team: Philipp Haller, Aleksandar Prokopec, Heather Miller and Vojin Jovanovic)
+*  Harmonized API with [SIP-14](https://docs.scala-lang.org/sips/pending/futures-promises.html) (big props to the EPFL team: Philipp Haller, Aleksandar Prokopec, Heather Miller and Vojin Jovanovic)
 * Smaller footprint
 * Completely non-blocking implementation
 
@@ -110,10 +110,10 @@ Things that will be released within the coming months:
 
 ## Useful Links
 
-* Akka Maven repository: [http://repo.akka.io/releases](http://repo.akka.io/releases)
+* Akka Maven repository: [https://repo.akka.io/releases](https://repo.akka.io/releases)
 * Akka binary distribution: [https://akka.io/downloads](https://akka.io/downloads)
-* Akka 2.0 documentation: [https://doc.akka.io/docs/akka/2.0/](https://doc.akka.io/docs/akka/2.0/)
-* Issue tracker: [http://www.assembla.com/spaces/akka/](http://www.assembla.com/spaces/akka/)
+* Akka 2.0 documentation: [https://doc.akka.io/docs/akka/2.0.5/](https://doc.akka.io/docs/akka/2.0.5/)
+* Issue tracker: [https://app.assembla.com/spaces/akka/](https://app.assembla.com/spaces/akka/)
 * Akka mailing list: [https://groups.google.com/group/akka-user](https://groups.google.com/group/akka-user)
 
 Akka is released under the Apache V2 license.

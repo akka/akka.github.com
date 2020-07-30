@@ -20,7 +20,7 @@ With this release most Alpakka connectors are available for Scala 2.13.
 Read about more details in the [Alpakka 1.1 release notes](https://doc.akka.io/docs/alpakka/current/release-notes/1.1.x.html)
 
 
-Thanks to [Lightbend](https://www.lightbend.com/) for their continued sponsorship of the Alpakka core team's efforts. Lightbend Platform Subscription [includes support](https://www.lightbend.com/lightbend-platform-subscription) for Akka and Alpakka.
+Thanks to [Lightbend](https://www.lightbend.com/) for their continued sponsorship of the Alpakka core team's efforts. Lightbend Platform Subscription [includes support](https://www.lightbend.com/lightbend-subscription) for Akka and Alpakka.
 
 Happy hakking!
 

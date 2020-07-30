@@ -25,7 +25,7 @@ When dealing with callbacks there is however one problem: we often do not have a
 ### FileTailSource
 This sample code is taken from the [FileTailSource](https://github.com/akka/alpakka/blob/ae2e1e1d44d627ebc66a24ea35993398df7840bc/file/src/main/java/akka/stream/alpakka/file/javadsl/FileTailSource.java) sources of the [Alpakka project](https://github.com/akka/alpakka). In this case we are reading chunks of bytes from a file, but not stopping and completing the stream when we reach the end of the file. Instead we schedule a later read to see if data was appended to the file since the last read.
 
-We first acquire a the `AsyncCallback` pointing to a local function that will be what actually handles the read bytes. `AsyncCallback` will only handle a single parameter, so we need to use a datatype that covers all the information we want to pass on, in this case we use the [scala.util.Try](http://www.scala-lang.org/api/2.11.8/index.html#scala.util.Try) data structure here which will either be a `Success(bytes)` or a `Failure(exception)` but this is not mandatory and you could of course use whatever class that fits your use case:
+We first acquire a the `AsyncCallback` pointing to a local function that will be what actually handles the read bytes. `AsyncCallback` will only handle a single parameter, so we need to use a datatype that covers all the information we want to pass on, in this case we use the [scala.util.Try](https://www.scala-lang.org/api/2.11.8/index.html#scala.util.Try) data structure here which will either be a `Success(bytes)` or a `Failure(exception)` but this is not mandatory and you could of course use whatever class that fits your use case:
 
 ```java
 chunkCallback = createAsyncCallback((tryInteger) -> {

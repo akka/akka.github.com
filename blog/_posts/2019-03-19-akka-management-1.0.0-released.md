@@ -17,11 +17,11 @@ been promoted to [the main Akka
 project](https://doc.akka.io/docs/akka/current/discovery/index.html).
 With the exception of the community maintained modules listed in the
 [README](https://github.com/akka/akka-management#project-status), the
-[Lightbend Platform Subscription](https://www.lightbend.com/lightbend-platform-subscription)
+[Lightbend Platform Subscription](https://www.lightbend.com/lightbend-subscription)
 now covers support for Akka Management.
 
 This will make Akka Management a shared building block across the
-[Lightbend Platform](https://www.lightbend.com/lightbend-platform),
+[Lightbend Platform](https://www.lightbend.com/akka-platform),
 and become the go-to mechanism for deploying and operating
 [Akka](https://akka.io),
 [Lagom](https://www.lagomframework.com/) and

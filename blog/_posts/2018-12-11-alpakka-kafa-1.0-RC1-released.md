@@ -19,7 +19,7 @@ We are pleased to announce the first release candidate of Alpakka Kafka 1.0. Hig
 
 Many of these changes have been developed or initiated by the community. A big thank you for everyone involved!
 
-For detailed changes and credits take a look at the [release notes](https://doc.akka.io/docs/akka-stream-kafka/1.0-RC1/release-notes/1.0-RC1.html)
+For detailed changes and credits take a look at the [release notes](https://doc.akka.io/docs/alpakka-kafka/current/release-notes/1.0-RC1.html)
 in the Alpakka Kafka connector documentation.
 
 Happy hakking!

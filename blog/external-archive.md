@@ -1,8 +1,6 @@
 ---
 layout: news-main
 title: External Article Archive
-redirect_from:
- - "/presentations-blogs"
 group: navigation
 ---
 

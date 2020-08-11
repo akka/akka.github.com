@@ -12,7 +12,7 @@ youtubeId: kGYQaWCQWaY
 
 Since [Akka gRPC](https://doc.akka.io/docs/akka-grpc) is built on [Akka HTTP](https://doc.akka.io/docs/akka-http) it is easy to use them together: you can not only serve regular HTTP routes next to gRPC routes on the same port, but also wrap gRPC in regular Akka HTTP directives.
 
-This video is a follow-up on the 5-minute [Introduction to gRPC](2020-04-08-akka-grpc-intro-video.md)
+This video is a follow-up on the 5-minute [Introduction to gRPC](https://akka.io/blog/news/2020/04/08/akka-grpc-intro-video)
 
 You can find the slides and code [on GitHub](https://github.com/raboof/akka-grpc-http-video).
      

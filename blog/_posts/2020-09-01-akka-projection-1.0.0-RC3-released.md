@@ -8,7 +8,8 @@ tags: [releases]
 ---
 
 Dear hakkers,
-We're happy to announce the latest release candidate of Akka Projections, version 1.0.0-RC3. If no serious bug is reported this RC3 will become 1.0.0 GA next week. 
+
+We're happy to announce the latest release candidate of Akka Projections, version 1.0.0-RC3. If no serious bug is reported this RC3 will become 1.0.0 GA next week.
 
 We consider the API stable even though we’re still not making any bincompat promise and you should consider all the public API as ApiMayChange. It might be changed based on feedback from initial usage.
 

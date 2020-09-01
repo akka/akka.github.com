@@ -7,7 +7,7 @@ category: news
 tags: [releases]
 ---
 
-Dear Hakkers,
+Dear hakkers,
 
 The Akka contributors are happy to announce the first release candidate of Akka Projections, version 1.0.0-RC1. If no serious bug is reported this RC1 will become GA.
 

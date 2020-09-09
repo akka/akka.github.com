@@ -10,7 +10,7 @@ youtubeId: SuTPY5MxmUM
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-This video introduces [Replicated Event Sourcing](https://doc.akka.io/docs/akka/snapshot/typed/replicated-eventsourcing.html), new in Akka 2.6.9. Replicated Event Sourcing builds on top of `EventSourcedBehavior`s allowing
+This video introduces [Replicated Event Sourcing](https://doc.akka.io/docs/akka/current/typed/replicated-eventsourcing.html), new in Akka 2.6.9. Replicated Event Sourcing builds on top of `EventSourcedBehavior`s allowing
 multiple replicas to be kept in memory within an Akka Cluster. 
 
 The use cases for doing so are:

@@ -41,7 +41,7 @@ We consider the API stable even though we’re still not making any bincompat pr
 
 ### Migrating from previous Release Candidates
 
-If you have been using a Release Candidate with JDBC or Slick, there is a small change in the offset store table. The `OFFSET` column have been renamed to `CURRENT_OFFSET`. Make sure to rename it in your existing schema before upgrading to version 1.0.0.
+If you have been using a Release Candidate with JDBC or Slick, there is a small change in the offset store table. The `OFFSET` column has been renamed to `CURRENT_OFFSET`. Make sure to rename it in your existing schema before upgrading to version 1.0.0.
 
 Feedback, bug reports and feature requests are welcome as issues in [akka-projection/issues](https://github.com/akka/akka-projection/issues).
 

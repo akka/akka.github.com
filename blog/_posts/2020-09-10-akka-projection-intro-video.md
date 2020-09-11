@@ -10,9 +10,9 @@ youtubeId: 0toyKxomdwo
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-This video introduces [Akka Projections](https://doc.akka.io/docs/akka-projection/current/), a new Akka module to process a stream of events or records from a source to a projected model or external system. For example, it can be used to generate the read-side models in CQRS applications, publish data to messages broker or to other systems.
+This video introduces [Akka Projections](https://doc.akka.io/docs/akka-projection/current/), a new Akka module to process a stream of events or records from a source to a projected model or external system. For example, it can be used to generate the read-side models in CQRS applications, publish data to message brokers or to other systems.
 
-This video builds on top of the existing videos:
+This video continues the series on Event Sourcing and CQRS:
 
 * [Event Sourcing with Akka 2.6](https://akka.io/blog/news/2020/01/07/akka-event-sourcing-video)
 * [CQRS with Akka 2.6](https://akka.io/blog/news/2020/02/05/akka-cqrs-video)

@@ -20,7 +20,7 @@ As the source you can select from:
 
 * [Events from Akka Persistence](https://doc.akka.io/docs/akka-projection/current/eventsourced.html)
 * [Messages from Kafka](https://doc.akka.io/docs/akka-projection/current/kafka.html)
-* Building your own [SourceProvider](https://doc.akka.io/api/akka-projection/1.0.0/akka/projection/scaladsl/SourceProvider.html)
+* Building your own [SourceProvider](https://doc.akka.io/api/akka-projection/current/akka/projection/scaladsl/SourceProvider.html)
 
 For the offset storage you can select from:
 

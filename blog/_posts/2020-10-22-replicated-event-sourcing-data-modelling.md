@@ -11,7 +11,7 @@ youtubeId: 8PnJxTlOP6o
 {% include youtubePlayer.html id=page.youtubeId %}
 
 This is the second video about [Replicated Event Sourcing](https://doc.akka.io/docs/akka/current/typed/replicated-eventsourcing.html), new in Akka 2.6.9. 
-The [first video](./2020-10-22-replicated-event-sourcing-data-modelling.md) introduced the new feature whereas this video goes into how to model your domain when using Replicated Event Sourcing.
+The [first video](https://akka.io/blog/news/2020/09/09/replicated-event-sourcing-video) introduced the new feature whereas this video goes into how to model your domain when using Replicated Event Sourcing.
 
 Examples domains include:
 

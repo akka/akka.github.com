@@ -32,3 +32,6 @@ Redirect 301 /presentations-blogs            https://akka.io/blog/external-archi
 RedirectMatch 301 ^/releases/?.*             https://akka.io/blog/tags.html#releases-ref
 RedirectMatch 301 ^/news/?$                  https://akka.io/blog/
 RedirectMatch 301 ^/blog/news/?$             https://akka.io/blog/
+
+# some posts used to have no category but were now moved to "article"
+RedirectMatch 301 ^/blog/(20.*)$             https://akka.io/blog/article/$1

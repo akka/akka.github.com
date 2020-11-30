@@ -19,6 +19,7 @@ Github lists their versions of Jekyll etc. here: https://pages.github.com/versio
 
 After cloning, cd into the `akka/akka.github.com` directory and run:
 
+
     bundle exec jekyll serve --baseurl '' --future
 
 To see the generated site, just visit `http://localhost:4000`.

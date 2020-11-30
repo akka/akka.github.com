@@ -16,7 +16,7 @@ Note: if you are still on Akka 2.5.x or older we highly recommend that you [upda
 
 ## Akka Typed
 
-When we released Akka 2.6, Akka Typed marked an important milestone: the “new actors API” (also known as “Akka Typed”) became ready for prime-time with a stable API. Type-safety for communication between actors eliminates a huge class of errors which made developing and maintaining solutions using the classic APIs hard at times, especially for new users. The research to implement a new API for Akka actors started much earlier, driven by [Dr. Roland Kuhn](http://twitter.com/rolandkuhn).
+When we released Akka 2.6, Akka Typed marked an important milestone: the “new actors API” (also known as “Akka Typed”) became ready for prime-time with a stable API. Type-safety for communication between actors eliminates a huge class of errors which made developing and maintaining solutions using the classic APIs hard at times, especially for new users. The research to implement a new API for Akka actors started much earlier, driven by [Dr. Roland Kuhn](https://twitter.com/rolandkuhn).
 
 The [Actor introduction video](https://akka.io/blog/news/2019/12/03/akka-typed-actor-intro-video) and the [Try Akka Guide](https://akka.io/try-akka/) introduce actors in Akka from scratch. If you have used the classic actors, [Learning Akka Typed from Classic](https://doc.akka.io/docs/akka/2.6/typed/from-classic.html) will be a good starting point.
 

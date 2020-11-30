@@ -95,7 +95,7 @@ Use the Akka Migration package to aid in migrating 1.3 code to 2.0.
 * One abstraction for asynchronous execution of logic
 
 ### ømq
-* An API for using Akka with [ømq](http://www.zeromq.org/)
+* An API for using Akka with [ømq](https://zeromq.org/)
 * Huge thanks to Karim Osman and Ivan Porto Carrero
 * Built as an Akka Extension
 

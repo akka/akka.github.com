@@ -12,7 +12,7 @@ tags: [streams,integration]
 {% include JB/setup %}
 
 
-[Apache Kafka](http://kafka.apache.org) is the leading distributed messaging system, and [Reactive Streams](https://www.reactive-streams.org) is an emerging standard for asynchronous stream processing. It seems natural to combine these two; that’s why [SoftwareMill](https://softwaremill.com) started the [reactive-kafka](https://github.com/akka/reactive-kafka) project back in December 2014 and maintained it since.
+[Apache Kafka](https://kafka.apache.org) is the leading distributed messaging system, and [Reactive Streams](https://www.reactive-streams.org) is an emerging standard for asynchronous stream processing. It seems natural to combine these two; that’s why [SoftwareMill](https://softwaremill.com) started the [reactive-kafka](https://github.com/akka/reactive-kafka) project back in December 2014 and maintained it since.
 
 Recently we’ve combined efforts with the Akka team, and now the project can leverage the expert input from the [Lightbend](https://www.lightbend.com) Akka maintainers themselves (Patrik Nordwall and Endre Varga), community ([Alexey Romanchuk](https://github.com/13h3r)) and the original reactive-kafka authors (Krzysiek Ciesielski from [SoftwareMill](https://softwaremill.com)).
 

@@ -29,7 +29,6 @@ Aditionally, as a little motivation, we'll be raffling away **100 Akka t-shirts*
 Winners will be notified within two weeks after we closed the survey.
 
 ![Win an Akka T-Shirt](http://cdn.shopify.com/s/files/1/0321/1241/products/akka-shirt_1024x1024.jpg?v=1431561530) 
-(see more [Lightbend swag](http://shop.lightbend.com/collections/frontpage/products/akka-t-shirt))
 
 We're looking forward to your responses. So [take the survey](https://lightbend.qualtrics.com/SE/?SID=SV_3VnWxXR09f7lAEd), and spread the word!
 

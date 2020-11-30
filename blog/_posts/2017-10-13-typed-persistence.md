@@ -19,7 +19,7 @@ These features are still using the existing implementations from the untyped mod
 
 Akka Persistence enables stateful actors to persist their internal state so that it can be recovered when an actor is started, restarted after a JVM crash or by a supervisor, or migrated in a cluster. The key concept behind Akka persistence is that only changes to an actor’s internal state are persisted but never its current state directly (except for optional snapshots). Such stateful actors are recovered by replaying stored changes to these actors from which they can rebuild internal state.
 
-This design of capturing all changes as domain events, which are immutable facts of things that have happened, is known as [event sourcing](https://msdn.microsoft.com/en-us/library/jj591559.aspx).
+This design of capturing all changes as domain events, which are immutable facts of things that have happened, is known as [event sourcing](https://docs.microsoft.com/en-us/previous-versions/msp-n-p/jj591559(v=pandp.10)).
 
 ## Stub
 

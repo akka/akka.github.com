@@ -35,7 +35,3 @@ RedirectMatch 301 ^/blog/news/?$             https://akka.io/blog/
 
 # some posts used to have no category but were now moved to "article"
 RedirectMatch 301 ^/blog/(20.*)$             https://akka.io/blog/article/$1
-
-# using 302 in case it ever should move back
-RedirectMatch 302 ^/platform-guide/snapshot/(.*)$             https://developer.lightbend.com/docs/akka-platform-guide/$1
-RedirectMatch 302 ^/platform-guide/(.*)$                      https://developer.lightbend.com/docs/akka-platform-guide/$1

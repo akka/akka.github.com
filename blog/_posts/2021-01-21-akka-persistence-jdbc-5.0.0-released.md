@@ -11,7 +11,7 @@ Dear hakkers,
 
 We are happy to announce the 5.0.0 release of Akka Persistence JDBC.
 
-### Changes since 4.0.0
+## Changes since 4.0.0
 
 This release includes a new journal schema with tags persisted on a separated table.
 

@@ -15,7 +15,7 @@ We're happy to announce the release of Akka Projections 1.1.0.
 
 This release includes some changes on for the JDBC and Slick schema for PostgresSQL and H2 databases. The previous version was generating the schema using quoted and uppercased table and column names.
 
-Although, it doesn't make any difference on how projections work, it is inconvennient to create schemas as such because it force queries to always use quoted and uppercased statements, eg: `select * from "AKKA_PROJECTION_OFFSET_STORE"`.
+Although, it doesn't make any difference on how projections work, it is inconvenient to create schemas as such because it force queries to always use quoted and uppercased statements, eg: `select * from "AKKA_PROJECTION_OFFSET_STORE"`.
 
 The PostgresSQL schema defaults now to unquoted lowercase, which allows queries as in `select * from akka_projection_offset_store`.
 

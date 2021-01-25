@@ -13,15 +13,16 @@ We are happy to announce the 5.0.0 release of Akka Persistence JDBC.
 
 ## Changes since 4.0.0
 
-This release includes a new journal schema with tags persisted on a separated table.
+This release includes a new journal schema with tags persisted on a separated table solving a long stand [issue](https://github.com/akka/akka-persistence-jdbc/issues/168).
 
-The serialized events are not wrapped with Akka’s `PersistentRepr` as before but directly saved as a blob payload into the column using Akka's serialization mechanism.
+The serialized events are not wrapped with Akka’s `PersistentRepr` as before but directly saved as a blob payload into the column using Akka's serialization mechanism. `PersistentRepr` is an internal Akka API and, although stable, it's preferable to not have them serialized into the journal, hence the change.
+In addition to that, the serializer manifest is now saved on a separated column making it possible to inspect it using a simple select statement.
+
+The new schema also supports [Replicated Event Sourcing](https://doc.akka.io/docs/akka/current/typed/replicated-eventsourcing.html#replicated-event-sourcing).
 
  In order to migrate to the new schema, a migration tool capable of reading the serialized representation of `PersistentRepr` is required. That tool [doesn’t exist yet](https://github.com/akka/akka-persistence-jdbc/issues/317), therefore, the **new schema can only be used with new applications**.
 
- **If you have an existing database you need to update the configuration.** See [Migration](https://doc.akka.io/docs/akka-persistence-jdbc/5.0/migration.html)**.
-
- The new schema also supports [Replicated Event Sourcing](https://doc.akka.io/docs/akka/current/typed/replicated-eventsourcing.html#replicated-event-sourcing).
+ **If you have an existing database you need to update the configuration.** See [Migration](https://doc.akka.io/docs/akka-persistence-jdbc/5.0.0/migration.html)**.
 
 ## Credits
 

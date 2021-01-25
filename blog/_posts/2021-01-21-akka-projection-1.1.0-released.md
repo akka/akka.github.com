@@ -17,40 +17,11 @@ This release includes some changes on for the JDBC and Slick schema for Postgres
 
 Although, it doesn't make any difference on how projections work, it is inconvenient to create schemas as such because it force queries to always use quoted and uppercased statements, eg: `select * from "AKKA_PROJECTION_OFFSET_STORE"`.
 
-The PostgresSQL schema defaults now to unquoted lowercase, which allows queries as in `select * from akka_projection_offset_store`.
-
-H2 requires the usage of quotes, but are now using lowercase, allowing queries as in `select * from "akka_projection_offset_store"`.
-
-There is a backward compatibility mode in case you prefer to stay on the old schema. See migration section below. 
+There is a backward compatibility mode in case you prefer to stay on the old schema. More details on the documentaion schema sections for [JDBC](https://doc.akka.io/docs/akka-projection/1.1.0/jdbc.html#schema) and [Slick](https://doc.akka.io/docs/akka-projection/1.1.0/slick.html#schema). 
 
 In addtition to that, and in the same spirit of improving the develop expericence, `JdbcProjection` and `SlickProjection` now include a `dropOffsetTableIfExists` to drop the database. Useful for testing purposes.
 
-## Migration
-
-As of version 1.1.0, the schema for PostgreSQL and H2 databases has changed. It now defaults to lowercase table and column names.
-If you have a schema in production, we recommend applying an ALTER table script to change it accordingly.
-
-Alternatively, if you prefer to keep using uppercase quoted names you can fallback to the legacy format.
-
-Users of `akka-projection-jdbc` can revert to legacy format with the following configuration settings:
-
-```hocon
-akka.projection.jdbc.offset-store {
-  table = "AKKA_PROJECTION_OFFSET_STORE"
-  use-lowercase-schema = false
-}
-
-```hocon
-Users of `akka-projection-slick` can revert to legacy format with the following configuration settings:
-
-```hocon
-akka.projection.slick.offset-store {
-  table = "AKKA_PROJECTION_OFFSET_STORE"
-  use-lowercase-schema = false
-}
-```
-
-The full documentation can be found at [https://doc.akka.io/docs/akka-projection/current/](https://doc.akka.io/docs/akka-projection/current/).
+The full documentation can be found at [https://doc.akka.io/docs/akka-projection/1.1.0/](https://doc.akka.io/docs/akka-projection/1.1.0/).
 
 ## API stability
 

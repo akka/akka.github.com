@@ -29,9 +29,6 @@ title: Team
 </div>
 {% endif %}
 
-{% if mod == 1 %}
-</div>
-{% endif %}
 
 <h2>Honorary Members</h2>
 
@@ -58,4 +55,3 @@ title: Team
 {% if mod == 1 %}
 </div>
 {% endif %}
-

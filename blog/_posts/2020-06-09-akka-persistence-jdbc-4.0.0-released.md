@@ -16,8 +16,8 @@ This is the first major release since the project joined the Akka organisation.
 Highlights of the release:
 
 * Use ordering Offset in eventsByPersistenceId, #91 [#385](https://github.com/akka/akka-persistence-jdbc/issues/385) by [@patriknw](https://github.com/patriknw)
-* Added support for EventEnvelope timestamp [#365](https://github.com/akka/akka-persistence-jdbc/issues/365) by [@renatocaval](https://github.com/renatocaval)
-* Fix eventsByTag query for tags that share a prefix #168 by [@renatocaval](https://github.com/renatocaval)
+* Added support for EventEnvelope timestamp [#365](https://github.com/akka/akka-persistence-jdbc/issues/365) by [@octonato](https://github.com/octonato)
+* Fix eventsByTag query for tags that share a prefix #168 by [@octonato](https://github.com/octonato)
 * Read events in batches from asyncReplayMessages, #322 [#370](https://github.com/akka/akka-persistence-jdbc/issues/370) by [@patriknw](https://github.com/patriknw)
 
 You can find the documentation [here](https://doc.akka.io/docs/akka-persistence-jdbc/current/).

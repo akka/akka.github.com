@@ -15,6 +15,11 @@
   twitter: rolandkuhn
   desc: After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Lightbend 2011-2016 where he was leading the Akka project from November 2012. <a href="https://www.rolandkuhn.com">rolandkuhn.com</a>
 
+- name: Christopher Batey
+  avatar: https://s.gravatar.com/avatar/4023085794183d616419d2b9409a1f3a?s=160
+  twitter: chbatey
+  desc: Christopher is a passionate software engineer. His favourite areas of computing are programming languages, distributed systems, databases and the JVM. Before joining the Akka team he built large scale systems in various industries including finance and media.
+
 - name: Helena Edelson
   avatar: https://s.gravatar.com/avatar/7cf318de31808cb4a36256cd984d0b5f?s=160
   twitter: helenaedelson

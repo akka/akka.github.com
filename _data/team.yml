@@ -19,11 +19,6 @@
   twitter: raboofje
   desc: After working on static source code analysis and receiving his M.Sc. in CS in 2006, Arnout went on to industry. Here he worked in a wide range of fields, from high-traffic enterprise e-commerce to financial data processing, predominantly based on the JVM. With that he became excited about how Akka can elegantly model today's concurrent and distributed systems.
 
-- name: Christopher Batey
-  avatar: https://s.gravatar.com/avatar/4023085794183d616419d2b9409a1f3a?s=160
-  twitter: chbatey
-  desc: Christopher is a passionate software engineer. His favourite areas of computing are programming languages, distributed systems, databases and the JVM. Before joining the Akka team he built large scale systems in various industries including finance and media.
-
 - name: Enno Runne
   avatar: https://en.gravatar.com/avatar/aa7dc84848a809f47e21f4195ba1a8b2?s=160
   title: Akka Tech Lead

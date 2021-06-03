@@ -15,6 +15,11 @@
   twitter: rolandkuhn
   desc: After earning a PhD in high-energy particle physics and while working as a systems engineer in the space business, Roland came in contact with the Akka project. He started contributing in 2010 and was employed by Lightbend 2011-2016 where he was leading the Akka project from November 2012. <a href="https://www.rolandkuhn.com">rolandkuhn.com</a>
 
+- name: Sean Glover
+  avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
+  twitter: seg1o
+  desc: Sean has been working as a professional software engineer since 2006. He has held a variety of product development and consulting roles at startups in spaces that include credit card fraud, business analytics, and customer experience management. More recently he has specialized in writing software that enables people to build high throughput & low latency data streaming platforms. Sean has organized the Scala Toronto meetup since 2013. <a href="https://seanglover.com">seanglover.com</a>
+
 - name: Christopher Batey
   avatar: https://s.gravatar.com/avatar/4023085794183d616419d2b9409a1f3a?s=160
   twitter: chbatey
@@ -39,10 +44,6 @@
   avatar: http://www.gravatar.com/avatar/e00d3476c1ca077dd6ba6897e724655d?s=160
   twitter: drewhk
   desc: Endre has been a teacher and PhD student at the Technical University of Budapest, where he has been researching complex systems and mobile ad hoc networks. His interest in distributed, high-performance and concurrent systems lead him to the world of actors and Akka in 2012.
-
-- name: Peter Vlugter
-  avatar: http://www.gravatar.com/avatar/d1d4a046f41854a01e461b1732bb764b?s=160
-  desc: Peter&apos;s background is in Artificial Intelligence research, particularly Natural Language Processing systems. He has also worked as a graphic designer, played music, and cooked in restaurants. Peter is currently the farthest flung member of the Akka team, living on the South Island of New Zealand.
 
 - name: Henrik Engström
   avatar: http://www.gravatar.com/avatar/f37dcc04641b226a984e06482a19cb25?s=160

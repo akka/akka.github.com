@@ -25,11 +25,6 @@
   twitter: ennru
   desc: Enno got introduced to Java in 1996 by Martin Odersky at Karlsruhe Institute of Technology. After his studies and Master's thesis on implementing Java Generics he moved to Sweden for love, and started his IT career building the Swedish national prescription registry and diverse other projects. Enno founded the Scala Stockholm user group in 2010 and is involved in the Jfokus developers' conference.
 
-- name: Sean Glover
-  avatar: https://s.gravatar.com/avatar/b63a5a7cb334c6ca17bd532a9d4864e5?s=160
-  twitter: seg1o
-  desc: Sean has been working as a professional software engineer since 2006. He has held a variety of product development and consulting roles at startups in spaces that include credit card fraud, business analytics, and customer experience management. More recently he has specialized in writing software that enables people to build high throughput & low latency data streaming platforms. Sean has organized the Scala Toronto meetup since 2013. <a href="https://seanglover.com">seanglover.com</a>
-
 - name: Ignasi Marimon-Clos
   avatar: https://s.gravatar.com/avatar/73fd4336663abc30844ea3a895b4a6fb?s=160
   twitter: ignasi35
@@ -39,3 +34,7 @@
   avatar: https://s.gravatar.com/avatar/5b8367bc982d30bc9d4e56d1cd463498?s=160
   twitter: octonato
   desc: Renato moved to Europe in 1999 to follow philosophy studies in Paris. Short thereafter, he started a career as an autodidact developer to pay for his croissants at the Paris' boulevards. He later moved to Belgium to follow his love. He has a special interest for Event Sourcing/CQRS, DDD and Microservices Architectures. Renato founded the Belgian Scala User Group in 2011 and is a frequent conference speaker.
+
+- name: Peter Vlugter
+  avatar: http://www.gravatar.com/avatar/d1d4a046f41854a01e461b1732bb764b?s=160
+  desc: Peter&apos;s background is in Artificial Intelligence research, particularly Natural Language Processing systems. He has also worked as a graphic designer, played music, and cooked in restaurants. Peter is currently the farthest flung member of the Akka team, living on the South Island of New Zealand.

@@ -103,15 +103,54 @@
 
 }
 
+
+.logo-grid {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+
+	span, a {
+		display: block;
+		width: 15%;
+		border: none;
+		position: relative;
+		img {
+			opacity: .7;
+			filter: grayscale(1);
+		}
+	}
+	a:after {
+		content: "Go to case study";
+		opacity: 0;
+		bottom: 1rem;
+		left: 0;
+		width: 100%;
+		position: absolute;
+		color: $pri_orange;
+		text-transform: uppercase;
+		font-size: .75rem;
+	}
+	a:hover:after {
+		opacity: 1;
+	}
+	a:hover img {
+		opacity: 1;
+		filter: grayscale(0);
+	}
+}
+
 .sponsors {
     margin: 60px 0 0 0;
     text-align: center;
     h1 {
         margin-bottom: 1em;
     }
+    a.lightbend-sponsor-logo {
+    	padding: 0 1rem 1rem 1rem;
+    	display: inline-block;
+    }
     img {
         width: 100%;
-        padding: 20px;
     }
     @include tablet-portrait-and-below {
         img {
@@ -121,6 +160,36 @@
     a {
         border: 0;
     }
+}
+
+a.akka-lightbend-promo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 3px 6px rgba(0,0,0, 0.16), 0 3px 6px rgba(0,0,0, 0.23);
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	img {
+		max-width: 160px;
+		margin: 0 auto;
+	}
+	p {
+		color: $pri_text;
+		padding: 0;
+		font-weight: 400;
+		margin: 0;
+	}
+	span {
+		color: $pri_orange;
+		border-bottom: 1px solid $pri_orange;
+		margin: 10px 0 0 0;
+	}
+	span:hover {
+    	color: rgba(0,0,0,0.5);
+    	border-bottom: 1px solid rgba(0,0,0,0.5);
+	}
 }
 
 .indexLatest {
